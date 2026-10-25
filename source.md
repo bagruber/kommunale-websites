@@ -450,31 +450,29 @@ Liegen Inhalte strukturiert vor, kann ein Sprachmodell daraus mehr erzeugen als 
 
 ## Fazit {#fazit}
 
-Die Investition, die sich in jedem Fall lohnt, ist die Datengrundlage. Auf ihr lässt sich jede der folgenden Optionen aufbauen.
+Die Investition, die sich in jedem Fall lohnt, ist die Datengrundlage. Auf ihr lassen sich verschiedene Wege aufbauen, einzeln oder kombiniert.
 
-| Option | Was | Kosten | Risiko | Passt, wenn |
-|------|------------|--------|---------|------------|
-| Kaufen | Fertige KI-Integration von einem Dienstleister | Lizenz oder Projektpreis, abhängig von Laufzeit und Anpassungsklauseln | Abhängigkeit vom Anbieter, Überschneidung mit Landesangeboten | der Anbieter offene Schnittstellen, kurze Laufzeit und vollständigen Datenexport zusagt |
-| Daten vorbereiten, abwarten | Inhalte strukturieren, Zuständigkeiten als Daten, BayernKI-Pilot anfragen | Arbeitszeit, kein Lizenzbudget | Nach außen wenig sichtbar | der Haushalt knapp ist und im Haus wenig Entwicklungskompetenz vorhanden ist |
-| Selbst aufsetzen | Prototyp mit offenen Bausteinen und offenem Modell auf den eigenen Inhalten | Gering bis mittel, vor allem Arbeitszeit | Betrieb und Verantwortung müssen geklärt sein | IT-affine Leute im Haus, im Ehrenamt oder in einer Kooperation verfügbar sind |
+| Weg | Was | Aufwand | Passt, wenn |
+|------|--------------|--------|--------------|
+| Fertige Lösung | KI-Funktionen eines Anbieters, eingebunden in die eigene Website | Lizenz oder Projektpreis | schnell ein Ergebnis gebraucht wird und Schnittstellen und Datenexport offen sind |
+| Gemeinsame Angebote | Plattformen von Land, Bund oder anderen Kommunen, etwa BayernKI | Beteiligung, Anpassung, Datenpflege | der Zeitplan dieser Angebote zum eigenen Bedarf passt |
+| Eigener Aufbau | Offene Bausteine und offenes Modell auf den eigenen Inhalten | Vor allem Arbeitszeit | IT-affine Leute im Haus, im Ehrenamt oder in einer Kooperation verfügbar sind |
 
-Warten und selbst aufsetzen schließen sich nicht aus. Ein möglicher Ablauf:
+Ein möglicher Ablauf:
 
-1. **Jetzt: Datengrundlage.** Inventur der Inhalte, Zuständigkeiten als Datensätze, Leistungsbeschreibungen per Schnittstelle aus dem BayernPortal, PDFs in Text, strukturierte Daten nach schema.org.
-2. **Mit der neuen Website: offene Architektur.** Statisch ausgeliefert, Code und Inhalte im Besitz der Stadt, offene Schnittstellen, kurze Verträge.
-3. **Parallel: Prototyp und Fortbildung.** Ein Antwortfeld auf Basis offener Bausteine, mit Protokollierung und Quellenangaben, zuerst intern getestet. Beteiligte lernen mit offenen Kursen. Pilotteilnahme bei BayernKI anfragen.
-4. **In etwa zwölf Monaten: Entscheidung.** Kaufen oder ausbauen, mit gesunkenen Preisen, eigenen Erfahrungswerten und klareren Regeln.
+1. **Datengrundlage.** Inventur der Inhalte, Zuständigkeiten als Datensätze, Leistungsbeschreibungen per Schnittstelle aus dem BayernPortal, PDFs in Text, strukturierte Daten nach schema.org.
+2. **Offene Architektur.** Statisch ausgeliefert, Code und Inhalte im Besitz der Stadt, offene Schnittstellen.
+3. **Erfahrung sammeln.** Ein Antwortfeld als Prototyp, mit Protokollierung und Quellenangaben, zuerst intern getestet. Beteiligte lernen mit offenen Kursen, eine Pilotteilnahme bei BayernKI wird angefragt.
+4. **Regelmäßig neu bewerten.** Preise und Regeln ändern sich schnell. Eigene Erfahrungswerte machen jede weitere Entscheidung leichter.
 
-### Prüffragen an jedes Angebot {#pruefragen}
+### Prüffragen für jede Lösung {#pruefragen}
 
 ::: {.checklist}
 - Gehören Code, Inhalte und Zugangsdaten der Stadt, und unter welcher Lizenz steht der Code?
 - Lassen sich alle Inhalte jederzeit vollständig in offenen Formaten exportieren?
 - Wo werden Anfragen verarbeitet, mit welchem Modell, und ist es austauschbar?
-- Wie lange läuft der Vertrag, und sinkt der Preis, wenn die Modellkosten sinken?
-- Wie schnell werden Sicherheitslücken geschlossen, und wer informiert die Stadt?
-- Erfüllt die Lösung BITV 2.0, und wer prüft das?
-- Werden Zugriffsrechte vor dem Modell durchgesetzt, nicht erst in der Antwort?
+- Passen sich die Kosten an, wenn Modelle günstiger werden?
+- Wächst die Lösung mit neuen Entwicklungen mit, etwa mit Redaktionssystemen, die Seiten nach einer Beschreibung entwerfen (Kapitel [Ausblick](#ausblick))?
 :::
 
 ## Glossar {#glossar}
