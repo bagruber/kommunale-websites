@@ -18,7 +18,7 @@ OUT = ROOT / "docs"
 ICONS = ROOT / "icons"
 PDF_NAME = "kommunale-websites-im-wandel.pdf"
 TITLE = "Kommunale Websites im Wandel"
-SUB = "Trends seit 2010 und Folgen für Städte mit 15.000 bis 40.000 Einwohner:innen"
+SUB = "Trends seit 2010 und Folgen für Städte mit 15.000 bis 40.000 Einwohnern"
 STAND = "Stand 25. Oktober 2026"
 
 # Farben fuer den Druck (Web nutzt CSS-Variablen)

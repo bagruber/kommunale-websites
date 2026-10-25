@@ -1,6 +1,6 @@
 # Kommunale Websites im Wandel
 
-Trends seit 2010 und Folgen für Städte mit 15.000 bis 40.000 Einwohner:innen.
+Trends seit 2010 und Folgen für Städte mit 15.000 bis 40.000 Einwohnern.
 
 - Text: `source.md` (pandoc-Markdown)
 - Ausgabe: `docs/index.html` (GitHub Page) und `docs/kommunale-websites-im-wandel.pdf`, beide nicht eingecheckt

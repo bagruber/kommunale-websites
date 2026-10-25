@@ -70,6 +70,70 @@ def wege(mode):
     return "\n".join(o)
 
 
+def modell(mode):
+    p = Pen(mode)
+    cw, gap = 114, 16
+    px = lambda i: 8 + i * (cw + gap)
+    cx = lambda i: px(i) + cw / 2
+    y1, h1, y2, h2, y3, h3 = 84, 76, 212, 62, 316, 62
+    o = [svg_open(520, 394, "Trainiert wird beim Hersteller, die Fundstellen liefert die Stadt")]
+    o.append(p.t(8, 22, "Trainiert wird beim Hersteller, die Fundstellen liefert die Stadt", 16, w=600))
+    o.append(p.t(8, 42, "Vom Datensatz zur Antwort, vereinfacht", 12.5, col="quiet"))
+    o.append(p.t(8, y1 - 10, "EINMALIG, BEIM HERSTELLER", 11.5, col="quiet", w=600))
+    o.append(p.t(8, y2 - 10, "BEI JEDER ANFRAGE", 11.5, col="quiet", w=600))
+
+    def box(i, y, h, name, lines, style=""):
+        x = px(i)
+        if style == "navy":
+            o.append(f'<rect x="{x}" y="{y}" width="{cw}" height="{h}" {p.c(fill="navy")}/>')
+            col = "white"
+        elif style == "dash":
+            o.append(f'<rect x="{x}" y="{y}" width="{cw}" height="{h}" {p.c(fill="none", stroke="muted", sw=1.2, dash="4 3")}/>')
+            col = "quiet"
+        else:
+            o.append(f'<rect x="{x}" y="{y}" width="{cw}" height="{h}" {p.c(fill="none", stroke="axis", sw=1.2)}/>')
+            col = "ink"
+        o.append(p.t(x + 9, y + 20, name, 13, col=col, w=600))
+        for k, s in enumerate(lines):
+            o.append(p.t(x + 9, y + 37 + 15 * k, s, 12, col=col))
+
+    def pfeil_h(i, y, dash=None):
+        x1, x2 = px(i) + cw + 2, px(i + 1) - 2
+        o.append(f'<path d="M{x1} {y}H{x2 - 6}" {p.c(fill="none", stroke="axis", sw=1.2, dash=dash)}/>')
+        o.append(f'<path d="M{x2 - 7} {y - 4}L{x2} {y}L{x2 - 7} {y + 4}z" {p.c(fill="axis")}/>')
+
+    def pfeil_v(x, ya, yb):
+        d = 1 if yb > ya else -1
+        o.append(f'<path d="M{x} {ya}V{yb - 6 * d}" {p.c(fill="none", stroke="axis", sw=1.2)}/>')
+        o.append(f'<path d="M{x - 4} {yb - 7 * d}L{x} {yb}L{x + 4} {yb - 7 * d}z" {p.c(fill="axis")}/>')
+
+    box(0, y1, h1, "Datensatz", ["Texte aus Web,", "Büchern und Code"])
+    box(1, y1, h1, "Training", ["Muster lernen auf", "Tausenden", "Grafikkarten"])
+    box(2, y1, h1, "Modell", ["offen ladbar oder", "per Schnittstelle"])
+    box(3, y1, h1, "Fine-Tuning", ["auf eigene Daten,", "früher üblich,", "heute meist RAG"], "dash")
+    pfeil_h(0, y1 + 30)
+    pfeil_h(1, y1 + 30)
+    pfeil_h(2, y1 + 30, dash="3 3")
+    pfeil_v(cx(2), y1 + h1, y2)
+
+    box(0, y2, h2, "Frage", ["„Darf ich eine", "Gartenhütte bauen?“"])
+    box(1, y2, h2, "Suche (RAG)", ["passende Abschnitte", "mit Berechtigung"])
+    box(2, y2, h2, "Inferenz", ["Modell formuliert", "aus den Fundstellen"])
+    box(3, y2, h2, "Antwort", ["mit Quellen und", "Zuständigkeit"])
+    for i in range(3):
+        pfeil_h(i, y2 + 30)
+
+    box(1, y3, h3, "Eigene Inhalte", ["mit Stand, Quelle", "und Rechten"], "navy")
+    box(2, y3, h3, "Werkzeuge (Agent)", ["Kalender, Formular,", "Datenbank"])
+    pfeil_v(cx(1), y3, y2 + h2)
+    pfeil_v(cx(2) - 14, y2 + h2, y3)
+    pfeil_v(cx(2) + 14, y3, y2 + h2)
+    o.append(p.t(cx(2) - 21, y2 + h2 + 25, "ruft auf", 11.5, col="quiet", anchor="end"))
+    o.append(p.t(cx(2) + 21, y2 + h2 + 25, "Ergebnis", 11.5, col="quiet"))
+    o.append("</svg>")
+    return "\n".join(o)
+
+
 def preise(mode):
     p = Pen(mode)
     d = lambda s: date.fromisoformat(s).toordinal()
@@ -172,6 +236,7 @@ def regulierung(mode, stand="2026-10-25"):
 
 FIGS = {
     "wege": (wege, "Eigene Darstellung."),
+    "modell": (modell, "Eigene Darstellung, vereinfacht."),
     "preise": (preise, "Quellen: a16z, LLMflation (GPT-3-Niveau); Epoch AI (GPT-4-Niveau). Listenpreise pro 1 Mio. Token."),
     "regulierung": (regulierung, "Quellen: Amtsblatt der EU, EU-Kommission, BGBl. 2026 I Nr. 223. Stand 25.10.2026."),
 }
