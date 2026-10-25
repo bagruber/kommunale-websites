@@ -1,5 +1,5 @@
 ---
-title: Software und KI im Wandel
+title: Internet im Wandel
 subtitle: Trends seit 2010 und Folgen für Kommunen und Behörden
 date: Stand 25. Oktober 2026
 lang: de

@@ -1,9 +1,9 @@
-# Software und KI im Wandel
+# Internet im Wandel
 
 Trends seit 2010 und Folgen für Kommunen und Behörden.
 
 - Text: `source.md` (pandoc-Markdown)
-- Ausgabe: `docs/index.html` (GitHub Page) und `docs/kommunale-websites-im-wandel.pdf`, beide nicht eingecheckt
+- Ausgabe: `docs/index.html` (GitHub Page) und `docs/internet-im-wandel.pdf`, beide nicht eingecheckt
 
 ## Bauen
 

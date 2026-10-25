@@ -16,8 +16,8 @@ from figures import FIGS
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs"
 ICONS = ROOT / "icons"
-PDF_NAME = "kommunale-websites-im-wandel.pdf"
-TITLE = "Software und KI im Wandel"
+PDF_NAME = "internet-im-wandel.pdf"
+TITLE = "Internet im Wandel"
 SUB = "Trends seit 2010 und Folgen für Kommunen und Behörden"
 STAND = "Stand 25. Oktober 2026"
 
@@ -125,7 +125,7 @@ footer{margin-top:3rem;font-size:.8rem;color:var(--quiet)}
 
 CSS_PRINT = FONTS + """
 @page{size:A4;margin:18mm 15mm 20mm 20mm;
-  @bottom-left{content:"Software und KI im Wandel";font:500 8pt "Barlow Condensed";color:#5d6168;letter-spacing:.03em}
+  @bottom-left{content:"Internet im Wandel";font:500 8pt "Barlow Condensed";color:#5d6168;letter-spacing:.03em}
   @bottom-right{content:counter(page);font:600 8.5pt "Barlow Condensed";color:#5d6168}
   @footnote{border-top:.5pt solid #b1ada2;padding-top:1.6mm;margin-top:3mm}}
 @page :first{@bottom-left{content:none}@bottom-right{content:none}}
