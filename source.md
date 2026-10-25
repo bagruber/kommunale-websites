@@ -1,6 +1,6 @@
 ---
-title: Kommunale Websites im Wandel
-subtitle: Trends seit 2010 und Folgen für Städte mit 15.000 bis 40.000 Einwohnern
+title: Software und KI im Wandel
+subtitle: Trends seit 2010 und Folgen für Kommunen und Behörden
 date: Stand 25. Oktober 2026
 lang: de
 ---
@@ -11,10 +11,10 @@ Das Papier beschreibt, wie sich die Nutzung von Websites und die Entwicklung von
 
 ::: {.folgen title="Auf einen Blick"}
 - [→]{.rec} Informationen werden häufiger über Suchmaschinen und KI-Antworten gefunden als direkt auf Websites. Wirksam ist, was dort gefunden wird: gepflegte, strukturierte Inhalte.
-- [→]{.rec} Der Preis für KI-Leistung fällt um ein Vielfaches pro Jahr, und Softwarehersteller bauen ihre Preismodelle um. Lange Verträge zu heutigen Konditionen sind ein Risiko.
+- [→]{.rec} Der Preis für KI-Leistung fällt um ein Vielfaches pro Jahr, und Softwarehersteller bauen ihre Preismodelle um. Verträge sollten sinkende Preise weitergeben können.
 - [→]{.rec} Für Auskunft und Entwürfe reichen offene Modelle und Bausteine, die andere Verwaltungen bereits einsetzen. Sie lassen sich nachnutzen und selbst betreiben.
 - [→]{.rec} Die Regeln für KI, Cloud und Beschaffung ändern sich bis 2028 mehrfach.
-- [→]{.rec} Daten aufbereiten lohnt sich in jedem Fall. Über KI-Funktionen lässt sich danach günstiger entscheiden, oder sie werden mit offenen Bausteinen selbst erprobt.
+- [→]{.rec} Aufbereitete Daten nützen jeder späteren KI-Lösung, ob gekauft oder selbst gebaut.
 :::
 
 ### Drei Wege zur Information {#drei-wege}
@@ -101,7 +101,7 @@ Die Antwort formuliert ein Modell des Suchanbieters auf Grundlage der Inhalte, d
 - [+]{.pro} Gute Inhalte wirken für klassische Suche und KI-Antworten gleichermaßen.
 - [−]{.con} Die Website wird seltener besucht. Aktuelle Hinweise werden seltener gesehen, Seitenaufrufe taugen kaum noch als Erfolgsmaß.
 - [−]{.con} Die Formulierung liegt beim Anbieter. Veraltete oder widersprüchliche Inhalte werden weitergegeben.
-- [→]{.rec} Korrekte, aktuelle, [strukturierte](#g-struktur) Inhalte haben Vorrang vor einem eigenen Chatbot. Die Seite muss weiterhin klassisch bedienbar bleiben, auch für ältere Menschen.
+- [→]{.rec} Korrekte, aktuelle, [strukturierte](#g-struktur) Inhalte sind die Voraussetzung für jede KI-Auskunft, fremde wie eigene. Die Seite muss weiterhin klassisch bedienbar bleiben, auch für ältere Menschen.
 :::
 
 ## Datenqualität und Struktur {#daten}
@@ -127,19 +127,20 @@ Aufbereitete Daten bedeuten für eine Stadtverwaltung Zuständigkeiten als Daten
 - [+]{.pro} Sie braucht Fachwissen aus der Verwaltung, keine KI-Spezialisten, und lässt sich mit eigenem Personal, Studierenden oder Ehrenamtlichen erledigen.
 - [−]{.con} Sie bindet Zeit in den Fachämtern und ist nach außen wenig sichtbar.
 - [−]{.con} Sie macht Widersprüche und veraltete Inhalte sichtbar.
-- [→]{.rec} Budget zuerst in Inventur, Struktur, Zuständigkeitsdaten und die Umwandlung von PDFs in Text. Die KI-Funktion folgt danach und kostet dann weniger.
+- [→]{.rec} Inventur, Struktur, Zuständigkeitsdaten und die Umwandlung von PDFs in Text früh einplanen. Jede KI-Funktion baut darauf auf.
 :::
 
 ## Wachstum von Open Source {#oss}
 
-2025 kamen auf GitHub über 36 Millionen Entwickler hinzu, insgesamt sind es mehr als 180 Millionen. Im selben Jahr entstanden 121 Millionen neue Repositories, in öffentlichen Projekten wurden 29 % mehr Änderungen zusammengeführt als im Vorjahr. In Deutschland hat sich die Zahl der Entwickler auf GitHub seit 2020 mehr als verdreifacht.^[GitHub: [Octoverse 2025](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/), 28.10.2025.] 73 % der Unternehmen in Deutschland setzen [Open Source](#g-oss) ein.^[Bitkom: [Open Source Monitor 2025](https://www.bitkom.org/Presse/Presseinformation/Open-Source), 17.09.2025.]
+Auf GitHub arbeiten über 180 Millionen Entwickler, allein 2025 kamen 36 Millionen hinzu. In Deutschland hat sich ihre Zahl seit 2020 mehr als verdreifacht.^[GitHub: [Octoverse 2025](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/), 28.10.2025.] 73 % der Unternehmen in Deutschland setzen [Open Source](#g-oss) ein.^[Bitkom: [Open Source Monitor 2025](https://www.bitkom.org/Presse/Presseinformation/Open-Source), 17.09.2025.]
 
-Für die meisten Funktionen einer Website gibt es gepflegte, frei nutzbare Komponenten, etwa Karten auf Basis von OpenStreetMap, Veranstaltungskalender, Volltextsuche, Prüfwerkzeuge für Barrierefreiheit und [Vektorsuche](#g-embedding). Testautomatisierung, Paketverwaltung, Hosting für statische Seiten und automatische Sicherheitsupdates von Abhängigkeiten sind für öffentliche Projekte kostenlos. GitHubs Werkzeug Dependabot erzeugte dafür schon 2022 über 75 Millionen Änderungsvorschläge.^[GitHub: [A smarter, quieter Dependabot](https://github.blog/security/supply-chain-security/a-smarter-quieter-dependabot/), 12.01.2023; GitHub Docs: [About GitHub's security features](https://docs.github.com/en/code-security/getting-started/github-security-features).]
+Wer selbst eine Website oder ein Werkzeug baut, fängt damit nicht bei null an. Für die meisten Funktionen gibt es gepflegte, frei nutzbare Komponenten, etwa Karten auf Basis von OpenStreetMap, Veranstaltungskalender, Volltextsuche, Prüfwerkzeuge für Barrierefreiheit und [Vektorsuche](#g-embedding). Testautomatisierung, Hosting für statische Seiten und automatische Sicherheitsupdates sind für öffentliche Projekte kostenlos.^[GitHub Docs: [About GitHub's security features](https://docs.github.com/en/code-security/getting-started/github-security-features).]
 
 ::: {.folgen}
 - [+]{.pro} Die Bausteine sind frei verfügbar und werden von großen Communities gepflegt. Sicherheitslücken werden öffentlich gemacht und meist schnell geschlossen.
-- [−]{.con} Die Auswahl braucht Kompetenz. Ein Projekt mit nur einem Maintainer ist ein Risiko.
-- [→]{.rec} In Ausschreibungen Open-Source-Bausteine zulassen oder verlangen und ihren Pflegezustand (Aktivität, Releases, Community) bewerten.
+- [+]{.pro} Für verbreitete Bausteine gibt es viele Fachleute. Das erleichtert die Suche nach Helfern und einen späteren Wechsel des Dienstleisters.
+- [−]{.con} Die Auswahl braucht Kompetenz. Bausteine, die mehrere Personen pflegen, sind verlässlicher als solche mit einem einzelnen Maintainer.
+- [→]{.rec} Bei eigener Entwicklung auf verbreitete Bausteine setzen. In Ausschreibungen Open Source zulassen oder verlangen und den Pflegezustand (Aktivität, Releases, Community) bewerten.
 :::
 
 ## Open Source in Verwaltungen {#oss-verwaltung}
@@ -160,6 +161,15 @@ Seit 2025 stellen Länder, Großstädte und Ministerien in mehreren europäische
 | Dortmund | Ratsbeschluss „Open Source, wo möglich“, proprietäre Beschaffung muss begründet werden.^[[OSOR](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/dortmund-goes-open-source-first), 03.05.2021.] | 2021 |
 
 63 % der befragten Verwaltungen nutzen Open Source, 37 % haben eine Strategie dafür.^[Bitkom: [Open Source Monitor 2025, Studienbericht](https://www.bitkom.org/sites/main/files/2025-09/Bitkom-Studienbericht-Open-Source-Monitor-2025.pdf), September 2025.] München hatte LiMux 2017 per Ratsbeschluss zurückgenommen.^[[cybernews](https://cybernews.com/de/tech/muenchen-ersetzt-microsoft-durch-open-source/), 13.05.2026.]
+
+Neben Büroanwendungen laufen auch Fachanwendungen und Bürgerdienste auf offener Software.
+
+| Software | Zweck | Im Einsatz |
+|----------|------------------|------------------|
+| Masterportal | Geoportal für Karten und Geodaten, entwickelt in Hamburg, MIT-Lizenz^[OSGeo: [Masterportal](https://www.osgeo.org/projects/masterportal/), abgerufen Oktober 2026.] | München nutzt es und zahlt 10.000 Euro im Jahr in den gemeinsamen Entwicklungsfonds, Göttingen stellt sein Geoportal darauf um.^[Landeshauptstadt München: [GeoPortal](https://opensource.muenchen.de/software/geoportal.html), abgerufen Oktober 2026; FOSSGIS 2026: [Göttingen auf mehr als einen Blick](https://pretalx.com/fossgis2026/talk/FEQSAA/), 27.03.2026.] |
+| Decidim | Bürgerbeteiligung mit Vorschlägen, Abstimmungen und Bürgerhaushalt, entstanden in Barcelona | Über 400 Institutionen in mehr als 30 Ländern.^[NGI: [Decidim](https://ngi.eu/impact-stories/collaborative-tools/decidim/), 17.10.2024.] |
+| X-Road | Datenaustausch zwischen Behörden, Rückgrat der estnischen Verwaltung | 2,2 Mrd. Transaktionen im Jahr, seit 2018 mit Finnland verbunden.^[e-Estonia: [X-Road](https://e-estonia.com/solutions/interoperability-services/x-road/), abgerufen Oktober 2026.] |
+| Matrix | Offener Standard für Messenger, jede Behörde betreibt ihren eigenen Server | Tchap für über 300.000 Beschäftigte des französischen Staates, BundesMessenger für Behörden in Deutschland.^[Element: [Matrix in Germany](https://element.io/matrix-in-germany/projects/bwmessenger), Herstellerangabe, abgerufen Oktober 2026.] |
 
 ::: {.folgen}
 - [+]{.pro} Referenzen gibt es auf Bundes-, Landes- und Stadtebene, auch in Bayern.
@@ -187,10 +197,10 @@ Wo Code offen liegt, wird er übernommen. Münchens KI-Assistent MUCGPT ist auf 
 
 ## Digitale Souveränität {#souveraenitaet}
 
-Im Juni 2025 erklärte ein Vertreter von Microsoft France unter Eid vor dem französischen Senat, er könne nicht garantieren, dass Daten nicht an US-Behörden gehen.^[Sénat: [Commission d'enquête commande publique](https://senat.fr/compte-rendu-commissions/20250609/ce_commande_publique.html), 10.06.2025.] Ein Gutachten der Universität Köln für das Bundesinnenministerium kommt zu dem Schluss, dass US-Recht den Zugriff auch auf Daten in EU-Rechenzentren erlaubt. Maßgeblich sei die Kontrolle über die Daten, nicht ihr Speicherort.^[[datenrecht.ch](https://datenrecht.ch/en/us-zugriffsbefugnisse-auf-daten-in-der-cloud-gutachten-uni-koeln-vom-maerz-2025/), 2025.] Beim Internationalen Strafgerichtshof war 2025 das Mailkonto des Chefanklägers nach US-Sanktionen nicht mehr nutzbar. Wer es gesperrt hat, ist umstritten.^[[Computerwoche](https://www.computerwoche.de/article/3989073/trump-befiehlt-microsoft-sperrt-e-mail-account.html), 19.05.2025.]
+Im Juni 2025 erklärte ein Vertreter von Microsoft France unter Eid vor dem französischen Senat, er könne nicht garantieren, dass Daten nicht an US-Behörden gehen.^[Sénat: [Commission d'enquête commande publique](https://senat.fr/compte-rendu-commissions/20250609/ce_commande_publique.html), 10.06.2025.] Ein Gutachten der Universität Köln für das Bundesinnenministerium kommt zu dem Schluss, dass US-Recht wie der CLOUD Act den Zugriff auch auf Daten in EU-Rechenzentren erlaubt, selbst wenn eine deutsche Tochterfirma sie betreibt. Maßgeblich sei die Kontrolle über die Daten, nicht ihr Speicherort.^[[datenrecht.ch](https://datenrecht.ch/en/us-zugriffsbefugnisse-auf-daten-in-der-cloud-gutachten-uni-koeln-vom-maerz-2025/), 21.01.2026, zum Gutachten vom März 2025.] Beim Internationalen Strafgerichtshof war 2025 das Mailkonto des Chefanklägers nach US-Sanktionen nicht mehr nutzbar. Wer es gesperrt hat, ist umstritten.^[[Computerwoche](https://www.computerwoche.de/article/3989073/trump-befiehlt-microsoft-sperrt-e-mail-account.html), 19.05.2025.]
 
 ::: {.beiuns}
-Läuft ein Antwortfeld über eine US-Schnittstelle, landen Bürgerfragen dort, oft mit Name, Adresse oder Lebenslage. Mit einem offenen Modell beim kommunalen Rechenzentrum oder einem EU-Hoster bleiben sie in Europa.
+Läuft ein Antwortfeld über einen US-Anbieter, ist ein Zugriff von US-Behörden auf die Bürgerfragen nicht auszuschließen, auch wenn die Server in Europa stehen. Die Fragen enthalten oft Name, Adresse oder Lebenslage. Mit einem offenen Modell beim kommunalen Rechenzentrum oder einem europäischen Hoster bleibt die Kontrolle in Europa.
 :::
 
 Microsoft erhöht die Preise für Microsoft 365 ab Juli 2026, ausdrücklich auch für Behörden.^[Microsoft: [2026 Microsoft 365 Packaging and Pricing Updates FAQ](https://www.microsoft.com/en-us/licensing/news/2026-M365-Packaging-Pricing-Updates-FAQ), 24.03.2026.] Die EU-Kommission hat im Juni 2026 mit dem Cloud and AI Development Act einen Rahmen vorgeschlagen, mit dem öffentliche Auftraggeber die Souveränität von Angeboten bewerten sollen.^[EU-Kommission: [Proposal for a Cloud and AI Development Act](https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada), 03.06.2026.] Nur 24 % der Verwaltungen haben ihre digitalen Abhängigkeiten vollständig analysiert.^[Bitkom: [Open Source Monitor 2025, Studienbericht](https://www.bitkom.org/sites/main/files/2025-09/Bitkom-Studienbericht-Open-Source-Monitor-2025.pdf).]
@@ -207,7 +217,7 @@ Microsoft erhöht die Preise für Microsoft 365 ab Juli 2026, ausdrücklich auch
 84 % der Entwickler nutzten 2025 KI-Werkzeuge oder planten es,^[Stack Overflow Developer Survey 2025, nach [InfoWorld](https://infoworld.com/article/4031673/ai-use-among-software-developers-grows-but-trust-remains-an-issue-stack-overflow-survey.html), 30.07.2025.] 2026 arbeiten zwei Drittel mit Coding-Agenten.^[Stack Overflow: [2026 Developer Survey](https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/), 06.10.2026.] Fast neun von zehn KI-Nutzern sparen nach eigener Angabe mindestens eine Stunde pro Woche, jeder Fünfte acht Stunden oder mehr.^[JetBrains: [State of Developer Ecosystem 2025](https://blog.jetbrains.com/research/2025/10/state-of-developer-ecosystem-2025/), Oktober 2025.] Eine kontrollierte Studie fand 2025 bei erfahrenen Open-Source-Entwicklern dagegen eine Verlangsamung um 19 %.^[METR, nach [TechCrunch](https://techcrunch.com/2025/07/11/ai-coding-tools-may-not-speed-up-every-developer-study-shows), 11.07.2025.] Laut DORA-Report geht KI-Nutzung mit schnellerer Auslieferung und geringerer Stabilität einher.^[Google Cloud: [2025 DORA Report](https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report), 23.09.2025.]
 
 ::: {.beiuns}
-Ein Abfallkalender mit Erinnerung, eine Baustellenkarte, ein Formularhelfer: Was vor zehn Jahren ein Agenturauftrag war, baut heute eine IT-affine Mitarbeiterin, ein Werkstudent oder eine ehrenamtliche Gruppe als Prototyp.
+Ein Abfallkalender mit Erinnerung ist als Prototyp an einem Wochenende gebaut, eine Baustellenkarte auf OpenStreetMap in wenigen Tagen, ein Formularhelfer zum passenden Antrag im BayernPortal in etwa einer Woche (eigene Schätzung). Gepflegt werden sie über eine Tabelle mit Terminen, Baustellen oder Anträgen. Alle drei laufen als statische Seiten auf kostenlosem Hosting.
 :::
 
 Auch Menschen ohne Programmierausbildung bauen inzwischen Software. Die Plattform Lovable, auf der Anwendungen per Beschreibung entstehen, wird nach eigener Angabe zu 80 % von ihnen genutzt und setzt über 500 Mio. Dollar im Jahr um.^[[The Next Web](https://thenextweb.com/news/lovable-build-economy-500m-arr-vibe-coding), 09.06.2026.] In der Verwaltung nutzen erst 12 % KI in der Softwareentwicklung.^[Bitkom: [Open Source Monitor 2025, Studienbericht](https://www.bitkom.org/sites/main/files/2025-09/Bitkom-Studienbericht-Open-Source-Monitor-2025.pdf).]
@@ -290,7 +300,7 @@ Den Betrieb erleichtern automatische Updates von Abhängigkeiten, Container und 
 ::: {.folgen}
 - [+]{.pro} Automatische Updates und Schutzregeln beim Hoster vereinfachen den Betrieb, auch ohne eigene Sicherheitsabteilung.
 - [+]{.pro} Statische Auslieferung entfernt die größte Angriffsfläche.
-- [−]{.con} Ein Wartungsvertrag garantiert keine Sicherheit. Im Notfall schaltet auch der Dienstleister ab.
+- [−]{.con} Auch ein Wartungsvertrag schützt nicht vor Abschaltungen im Notfall.
 - [−]{.con} KI verkürzt die Zeit zwischen Patch und Angriff auf Stunden. Wöchentliches Patchen reicht nicht.
 - [→]{.rec} In Verträge: Patch-Fristen in Stunden, Informationspflicht gegenüber der Stadt, offengelegter Versionsstand. In der Architektur: möglichst wenig öffentlich erreichbarer Servercode.
 :::
@@ -337,7 +347,7 @@ Eine Bürgerin fragt auf der Website nach der Gartenhütte. Gesucht wird nur in 
 - [+]{.pro} Aktualisieren heißt Dokument ändern. Jede Antwort nennt ihre Quelle.
 - [+]{.pro} Das Modell ist austauschbar, der Wert steckt in Index und Metadaten.
 - [−]{.con} Rechte müssen an den Dokumenten hängen. Falsch freigegebene Dateien findet eine KI schneller als jeder Mensch.
-- [→]{.rec} Angebote, die „auf Ihren Daten trainieren“, kritisch prüfen. Gebraucht wird ein Index mit Rechten, kein eigenes Modell.
+- [→]{.rec} Bei Angeboten prüfen, ob das Wissen über einen Index mit Rechten angebunden wird. Training auf eigenen Daten ist für Auskunft selten nötig.
 :::
 
 ## Preisentwicklung bei KI {#preise}
@@ -355,27 +365,22 @@ Zwischen Rohkosten und Endpreis liegt eine große Spanne. Manche KI-Anbieter arb
 ::: {.folgen}
 - [+]{.pro} In zwölf Monaten gibt es dieselbe Qualität für einen Bruchteil des Preises oder bessere Qualität zum selben Preis.
 - [+]{.pro} Bei kommunalen Mengen sind Modellkosten gering. Das Geld gehört in Daten und Integration.
-- [−]{.con} Mehrjährige Festpreise binden die Stadt an das Preisniveau von 2026.
+- [−]{.con} Mehrjährige Festpreise geben sinkende Kosten nicht weiter.
 - [−]{.con} Die günstigsten Angebote kommen teils von Anbietern, die datenschutzrechtlich ausscheiden.
-- [→]{.rec} Kurze Laufzeiten, nutzungsabhängige Abrechnung, Preisanpassung nach unten. Oder das Modell selbst betreiben.
+- [→]{.rec} Verträge so gestalten, dass sinkende Preise ankommen, etwa über nutzungsabhängige Abrechnung. Eigener Betrieb ist eine Alternative.
 :::
 
-## Softwarehersteller unter Druck {#saas}
+## Preismodelle der Softwarehersteller {#saas}
 
-Anfang 2026 verloren Softwarehersteller an der Börse innerhalb weniger Wochen ein Viertel ihres Werts. Der S&P-Index für Software und IT-Dienste fiel zwischen dem 12. Januar und dem 23. Februar um 25 %, nachdem Anthropic KI-Werkzeuge für Büro- und Fachaufgaben vorgestellt hatte.^[DeepLearning.AI, The Batch: [Claude Cowork Plugins Trigger a SaaS Stock Selloff](https://www.deeplearning.ai/the-batch/claude-cowork-plugins-trigger-a-saas-stock-selloff-but-partnerships-lead-to-slight-rebound), 27.02.2026; [Axios](https://www.axios.com/2026/02/03/ai-software-anthropic-stock-market), 03.02.2026.] Microsoft-Chef Satya Nadella hatte schon Ende 2024 erwartet, dass klassische Geschäftsanwendungen in einer Welt von KI-Agenten an Bedeutung verlieren.^[[CX Today](https://www.cxtoday.com/customer-data-platform/microsoft-ceo-ai-agents-will-transform-saas-as-we-know-it/), 23.12.2024.] Bis Oktober 2026 hatten sich die Kurse wieder erholt.^[[24/7 Wall St.](https://247wallst.com/investing/2026/10/13/everyone-declared-software-dead-in-april-this-etf-is-up-41-since-then/), 13.10.2026.]
+Atlassian senkte 2025 den Preis seines KI-Assistenten Rovo von über 20 auf 5 Dollar, Microsoft im Dezember 2025 den von Copilot für kleinere Organisationen von 30 auf 21 Dollar.^[Microsoft: [Microsoft 365 Copilot Business](https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/02/microsoft-365-copilot-business-the-future-of-work-for-small-businesses/), 02.12.2025; [TechTarget](https://techtarget.com/searchitoperations/news/366622263/Atlassian-Rovo-pricing-shifts-amid-AI-adoption-struggles), 09.04.2025.] Die Grundpreise der [SaaS](#g-saas)-Pakete steigen dagegen. Google hat Gemini 2025 in Workspace aufgenommen und die Preise um bis zu 22 % erhöht, Microsoft 365 wird ab Juli 2026 teurer.^[[9to5Google](https://9to5google.com/2025/01/15/google-workspace-price-increase-2025/), 15.01.2025; Microsoft: [2026 Microsoft 365 Pricing Updates FAQ](https://www.microsoft.com/en-us/licensing/news/2026-M365-Packaging-Pricing-Updates-FAQ), 24.03.2026.] Auch die Abrechnung wechselt. Zendesk berechnet seit August 2024 nur Anfragen, die seine KI selbstständig gelöst hat,^[Zendesk: [Outcome-based pricing](https://zendesk.co.uk/newsroom/articles/zendesk-outcome-based-pricing), 28.08.2024.] Salesforce kehrte nach einem Versuch mit Abrechnung pro Aktion Ende 2025 auf Wunsch der Kunden zu Lizenzen pro Person zurück.^[[The Register](https://www.theregister.com/2025/12/12/ai_agents_salesforce_pricing/), 12.12.2025.]
 
-Die Hersteller ändern ihre Preismodelle. Zendesk berechnet seit August 2024 nur Anfragen, die seine KI selbstständig gelöst hat,^[Zendesk: [Outcome-based pricing](https://zendesk.co.uk/newsroom/articles/zendesk-outcome-based-pricing), 28.08.2024.] Salesforce experimentierte mit Abrechnung pro Aktion und kehrte Ende 2025 auf Wunsch der Kunden zu planbaren Lizenzen pro Person zurück.^[[The Register](https://www.theregister.com/2025/12/12/ai_agents_salesforce_pricing/), 12.12.2025.] KI-Zusatzfunktionen werden billiger oder in bestehende Pakete aufgenommen: Microsoft senkte den Preis von Copilot für kleinere Organisationen von 30 auf 21 Dollar, Atlassian den seines KI-Assistenten Rovo von über 20 auf 5 Dollar.^[Microsoft: [Microsoft 365 Copilot Business](https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/02/microsoft-365-copilot-business-the-future-of-work-for-small-businesses/), 02.12.2025; [TechTarget](https://techtarget.com/searchitoperations/news/366622263/Atlassian-Rovo-pricing-shifts-amid-AI-adoption-struggles), 09.04.2025.] Die Grundpreise steigen dagegen. Google hat Gemini 2025 in Workspace aufgenommen und die Preise um bis zu 22 % erhöht, Microsoft 365 wird ab Juli 2026 teurer.^[[9to5Google](https://9to5google.com/2025/01/15/google-workspace-price-increase-2025/), 15.01.2025; Microsoft: [2026 Microsoft 365 Pricing Updates FAQ](https://www.microsoft.com/en-us/licensing/news/2026-M365-Packaging-Pricing-Updates-FAQ), 24.03.2026.]
-
-Ob Unternehmen mehr selbst bauen, ist umstritten. In einer Umfrage des Plattformanbieters Retool unter eigenen Kunden gaben 35 % an, mindestens ein SaaS-Werkzeug durch Eigenentwicklung ersetzt zu haben.^[Retool: [2026 Build vs. Buy Report](https://www.businesswire.com/news/home/20260217548274/en/Retools-2026-Build-vs.-Buy-Report-Reveals-35-of-Enterprises-Have-Already-Replaced-SaaS-With-Custom-Software), 17.02.2026.] Bei KI-Anwendungen kaufen Unternehmen dagegen mehr zu: 2025 wurden 76 % zugekauft, 2024 waren 47 % selbst gebaut.^[Menlo Ventures: [2025: The State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-AI-in-the-enterprise/), 09.12.2025.] Eine viel zitierte MIT-Studie fand 2025, dass zugekaufte KI-Lösungen etwa doppelt so oft über die Pilotphase hinauskommen wie Eigenentwicklungen. Ihre Methodik gilt allerdings als schwach.^[MIT NANDA: [The GenAI Divide](https://webberwentzel.com/News/Documents/2025/MIT1757411281972.pdf), Juli 2025; zur Kritik [80,000 Hours](https://80000hours.org/podcast/episodes/ai-workplace-mit-study/), 28.04.2026.]
-
-Offene Alternativen gewinnen Nutzer. LibreOffice wurde nach dem Release im August 2026 in der ersten Woche über eine Million Mal heruntergeladen, so oft wie nie zuvor.^[[OMG! Ubuntu](https://www.omgubuntu.co.uk/2026/09/libreoffice-download-record), 02.09.2026.] Im Oktober 2026 veröffentlichte ein einzelner Entwickler mit KI gebaute Open-Source-Nachbauten von sieben Adobe-Programmen sowie von Word, Excel und PowerPoint. Die Projekte sammelten in wenigen Tagen über 86.000 Sterne auf GitHub. Sie sind nach eigener Angabe aber noch in einem frühen Stadium, und ob sie rechtlich als unabhängige Neuentwicklung gelten, ist offen.^[[Phoronix](https://www.phoronix.com/news/Photocraft-Filmcraft-AI), 07.10.2026; [The Register](https://www.theregister.com/a/5301952), 08.10.2026; [Al Jazeera](https://www.aljazeera.com/news/2026/10/14/how-ai-apps-are-offering-free-substitutes-for-big-tech-software), 14.10.2026.]
+Offene Alternativen gewinnen Nutzer. LibreOffice wurde nach dem Release im August 2026 in der ersten Woche über eine Million Mal heruntergeladen, so oft wie nie zuvor.^[[OMG! Ubuntu](https://www.omgubuntu.co.uk/2026/09/libreoffice-download-record), 02.09.2026.]
 
 ::: {.folgen}
-- [+]{.pro} Hersteller stehen unter Druck. Das stärkt die Verhandlungsposition auch kleiner Kunden.
-- [+]{.pro} Offene Alternativen und Eigenentwicklung werden für mehr Anwendungen tragfähig.
+- [+]{.pro} Sinkende Preise für KI-Zusätze stärken die Verhandlungsposition auch kleiner Kunden.
+- [+]{.pro} Offene Alternativen werden für mehr Anwendungen tragfähig, auch als Eigenentwicklung.
 - [−]{.con} Grundpreise steigen weiter, und häufig wechselnde Preismodelle machen Kosten schwer planbar.
-- [−]{.con} Frühe Nachbauten ersetzen ausgereifte Produkte noch nicht. Dateikompatibilität und Rechtslage sind ungeklärt.
-- [→]{.rec} Keine langen Bindungen an heutige Preismodelle. Preisanpassung nach unten und Datenexport vertraglich sichern, bei jeder Verlängerung offene Alternativen prüfen.
+- [→]{.rec} Preisanpassung und Datenexport vertraglich sichern, bei jeder Verlängerung offene Alternativen prüfen.
 :::
 
 ## Regulierung {#regulierung}
@@ -392,14 +397,14 @@ Für die Beschaffung ist noch vieles offen. Der Cloud and AI Development Act sol
 - [+]{.pro} Für Auskunft und Textentwürfe sind die Pflichten überschaubar: Schulung, Kennzeichnung, menschliche Freigabe.
 - [+]{.pro} Die neuen Beschaffungsregeln begünstigen europäische und offene Lösungen.
 - [−]{.con} Viele Details sind offen, die Aufsicht über Kommunen regeln die Länder.
-- [−]{.con} Heute geschlossene lange Verträge können mit den Beschaffungsregeln von morgen kollidieren.
-- [→]{.rec} Kurze Laufzeiten mit Anpassungsklauseln. Jetzt umsetzen, was schon gilt: Schulungen dokumentieren, öffentliche KI-Texte von Menschen freigeben lassen, Assistenten als KI kennzeichnen.
+- [−]{.con} Lange Verträge müssen sich an kommende Beschaffungsregeln anpassen lassen.
+- [→]{.rec} Anpassungsklauseln für kommende Regeln vorsehen. Jetzt umsetzen, was schon gilt: Schulungen dokumentieren, öffentliche KI-Texte von Menschen freigeben lassen, Assistenten als KI kennzeichnen.
 :::
 
 ## Zentrale KI-Angebote des Staates {#staat}
 
 ::: {.beiuns}
-Bindet sich eine Stadt heute für mehrere Jahre an einen KI-Assistenten und bietet der Freistaat BayernKI danach allen Kommunen an, zahlt sie doppelt. Aufbereitete Daten lassen sich in jedes dieser Systeme übernehmen.
+Bietet der Freistaat BayernKI später allen Kommunen an, sollte eine eigene Lösung daneben bestehen oder dorthin umziehen können. Aufbereitete Daten lassen sich in jedes dieser Systeme übernehmen.
 :::
 
 Mehrere Staaten und Länder stellen KI zentral für Behörden und Kommunen bereit. In Bayern nutzt die Staatsverwaltung seit Oktober 2024 „BayernKI“, 50 Kommunen testen es.^[Bayerischer Landtag: [Drs. 19/7797](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007797.pdf), 01.09.2025.]
@@ -421,12 +426,12 @@ Die schwedischen Kommunen haben die Zusammenarbeit mit dem ursprünglichen Anbie
 - [+]{.pro} Landes- und Bundesangebote übernehmen Beschaffung, Datenschutzprüfung und Betrieb.
 - [+]{.pro} Gemeinsame Plattformen setzen Standards, an die eigene Daten anschließen können.
 - [−]{.con} Der Zeitplan ist offen. Landesangebote zielen auf interne Assistenz, die Auskunft auf der eigenen Website bleibt Sache der Stadt.
-- [→]{.rec} Keine langen Exklusivverträge für interne KI-Assistenz. Pilotteilnahme bei BayernKI anfragen, Daten vorbereiten.
+- [→]{.rec} Interne KI-Assistenz so wählen, dass ein späterer Wechsel zu einem Landesangebot möglich bleibt. Pilotteilnahme bei BayernKI anfragen, Daten vorbereiten.
 :::
 
 ## Ausblick {#ausblick}
 
-Liegen Inhalte strukturiert vor, kann ein Sprachmodell daraus mehr erzeugen als Antworten. Technisch ist das heute möglich, in Kommunen aber kaum erprobt. Es gehört deshalb in die Planung der Architektur, aber noch nicht in einen Kaufvertrag.
+Liegen Inhalte strukturiert vor, kann ein Sprachmodell daraus mehr erzeugen als Antworten. Technisch ist das heute möglich, in Kommunen aber kaum erprobt. Es gehört deshalb schon in die Planung der Architektur.
 
 - **Antwortseiten statt Chatfenster.** Ein Antwortfeld erzeugt eine Seite im Stadtdesign mit Antwort, Quellen, zuständiger Person und Formularlink. Häufige Fragen werden zwischengespeichert, Anfragen protokolliert.
 - **Seiten per Beschreibung.** Die Redaktion beschreibt, was sie braucht, etwa eine Seite zum Stadtfest mit Programm aus dem Kalender und Hinweis zur Straßensperrung. Das System erstellt einen Entwurf im Designsystem, ein Mensch gibt frei. Auch klassische CMS rüsten nach, TYPO3 etwa mit einer Erweiterung für KI-Suche und Zusammenfassungen.^[TYPO3: [This Month in TYPO3, May 2026](https://news.typo3.com/article/this-month-in-typo3-may-2026).]
@@ -439,18 +444,18 @@ Liegen Inhalte strukturiert vor, kann ein Sprachmodell daraus mehr erzeugen als 
 - [+]{.pro} Weniger Doppelarbeit, einheitliches Erscheinungsbild.
 - [+]{.pro} Mehrsprachigkeit und Leichte Sprache werden bezahlbar.
 - [−]{.con} Ohne Freigabeprozess veröffentlicht die Stadt Fehler unter eigenem Namen. Kennzeichnungspflichten gelten.
-- [−]{.con} Fertige KI-Funktionen in gekauften CMS binden an den Hersteller.
-- [→]{.rec} Jetzt nichts davon kaufen, aber die Grundlage legen: strukturierte Inhalte, ein Designsystem mit Vorlagen, offene Schnittstellen.
+- [−]{.con} Fest eingebaute KI-Funktionen eines CMS binden an dessen Hersteller.
+- [→]{.rec} Die Grundlage früh legen, mit strukturierten Inhalten, einem Designsystem mit Vorlagen und offenen Schnittstellen.
 :::
 
 ## Fazit {#fazit}
 
-Die Investition, die sich in jedem Fall lohnt, ist die Datengrundlage. Über die KI-Funktion lässt sich in zwölf Monaten günstiger und mit klareren Regeln entscheiden, oder sie wird heute mit offenen Bausteinen selbst erprobt.
+Die Investition, die sich in jedem Fall lohnt, ist die Datengrundlage. Auf ihr lässt sich jede der folgenden Optionen aufbauen.
 
 | Option | Was | Kosten | Risiko | Passt, wenn |
 |------|------------|--------|---------|------------|
-| Jetzt kaufen | Fertige KI-Integration vom Dienstleister, mehrjährige Laufzeit | Hoch, Preise von 2026 festgeschrieben | Lock-in, Doppelung mit BayernKI, kommende Rechtsänderungen | der Anbieter offene Schnittstellen, kurze Laufzeit und vollständigen Datenexport zusagt |
-| Warten, Daten vorbereiten | Inhalte strukturieren, Zuständigkeiten als Daten, BayernKI-Pilot anfragen | Arbeitszeit, kein Lizenzbudget | Nach außen wenig sichtbar | der Haushalt knapp ist und im Haus wenig Entwicklungskompetenz vorhanden ist |
+| Kaufen | Fertige KI-Integration von einem Dienstleister | Lizenz oder Projektpreis, abhängig von Laufzeit und Anpassungsklauseln | Abhängigkeit vom Anbieter, Überschneidung mit Landesangeboten | der Anbieter offene Schnittstellen, kurze Laufzeit und vollständigen Datenexport zusagt |
+| Daten vorbereiten, abwarten | Inhalte strukturieren, Zuständigkeiten als Daten, BayernKI-Pilot anfragen | Arbeitszeit, kein Lizenzbudget | Nach außen wenig sichtbar | der Haushalt knapp ist und im Haus wenig Entwicklungskompetenz vorhanden ist |
 | Selbst aufsetzen | Prototyp mit offenen Bausteinen und offenem Modell auf den eigenen Inhalten | Gering bis mittel, vor allem Arbeitszeit | Betrieb und Verantwortung müssen geklärt sein | IT-affine Leute im Haus, im Ehrenamt oder in einer Kooperation verfügbar sind |
 
 Warten und selbst aufsetzen schließen sich nicht aus. Ein möglicher Ablauf:
