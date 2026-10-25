@@ -1,0 +1,6 @@
+__pycache__/
+docs/print.html
+docs/index.html
+docs/*.pdf
+.frag.tpl
+.DS_Store
