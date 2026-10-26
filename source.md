@@ -7,27 +7,27 @@ lang: de
 
 ## Einleitung {#einleitung}
 
-Das Papier beschreibt, wie sich die Nutzung von Websites und die Entwicklung von Software seit etwa 2010 verändert haben und was daraus für Städte mit 15.000 bis 40.000 Einwohnern in Bayern folgt. Jedes Kapitel stellt einen Trend dar und endet mit einem Kasten zu den Folgen für kleine Kommunen ([+]{.pro} Vorteil, [−]{.con} Nachteil, [→]{.rec} Empfehlung). Randnotizen übertragen einzelne Punkte auf Moosburg. Fachbegriffe erklärt das [Glossar](#glossar).
+Seit etwa 2010 hat sich viel daran verändert, wie Menschen Websites nutzen und wie Software entsteht. Dieses Papier sammelt die wichtigsten Entwicklungen und schaut jeweils, was sie für Städte mit 15.000 bis 40.000 Einwohnern in Bayern bedeuten. Jedes Kapitel beschreibt einen Trend und endet mit einem Kasten zu den Folgen für kleine Kommunen ([+]{.pro} Vorteil, [−]{.con} Nachteil, [→]{.rec} Empfehlung). Randnotizen holen einzelne Punkte nach Moosburg. Fachbegriffe erklärt das [Glossar](#glossar), auf der Website auch direkt am Begriff.
 
 ::: {.folgen title="Auf einen Blick"}
-- [→]{.rec} Informationen werden häufiger über Suchmaschinen und KI-Antworten gefunden als direkt auf Websites. Wirksam ist, was dort gefunden wird: gepflegte, strukturierte Inhalte.
-- [→]{.rec} Der Preis für KI-Leistung fällt um ein Vielfaches pro Jahr, und Softwarehersteller bauen ihre Preismodelle um. Verträge sollten sinkende Preise weitergeben können.
-- [→]{.rec} Für Auskunft und Entwürfe reichen offene Modelle und Bausteine, die andere Verwaltungen bereits einsetzen. Sie lassen sich nachnutzen und selbst betreiben.
-- [→]{.rec} Die Regeln für KI, Cloud und Beschaffung ändern sich bis 2028 mehrfach.
+- [→]{.rec} Informationen werden heute öfter über Suchmaschinen und KI-Antworten gefunden als direkt auf der Website. Was dort ankommt, hängt an gepflegten, strukturierten Inhalten.
+- [→]{.rec} KI wird jedes Jahr um ein Vielfaches günstiger, und die Softwarehersteller bauen ihre Preismodelle um. Verträge sollten sinkende Preise deshalb auch weitergeben.
+- [→]{.rec} Für Auskunft und Entwürfe reichen offene Modelle und Bausteine, wie sie andere Verwaltungen schon einsetzen. Man kann sie nachnutzen und selbst betreiben.
+- [→]{.rec} Die Regeln für KI, Cloud und Beschaffung ändern sich bis 2028 noch mehrfach.
 - [→]{.rec} Aufbereitete Daten nützen jeder späteren KI-Lösung, ob gekauft oder selbst gebaut.
 :::
 
 ### Drei Wege zur Information {#drei-wege}
 
-In Debatten über KI werden drei Wege vermischt, auf denen Menschen an Informationen kommen. Technisch hängen sie kaum voneinander ab, alle drei brauchen aber dieselbe Datengrundlage.
+In Debatten über KI geraten oft drei Wege durcheinander, auf denen Menschen an Informationen kommen. Technisch haben sie wenig miteinander zu tun, alle drei brauchen aber dieselbe Datengrundlage.
 
 FIGURE:wege
 
-1. **Externe Suche und [KI-Suche](#g-kisuche).** Menschen fragen Google, ChatGPT oder Perplexity. Deren [Crawler](#g-crawler) lesen öffentliche Websites. Ob der Betreiber einer Website selbst ein [Sprachmodell](#g-llm) einsetzt, spielt dafür keine Rolle. Er beeinflusst Inhalt, Struktur und Aktualität seiner Seiten.
-2. **Auskunft auf der eigenen Website.** Ein Such- oder Antwortfeld auf der Website. Modell und Betrieb wählt der Betreiber. Datenbasis sind dieselben öffentlichen Inhalte wie bei Weg 1.
-3. **Interne Assistenz.** Beschäftigte durchsuchen Dienstanweisungen, Satzungen, Ratsunterlagen und Akten oder lassen Entwürfe vorbereiten. Dazu kommen Zugriffsrechte, personenbezogene Daten und Protokollierung.
+1. **Externe Suche und [KI-Suche](#g-kisuche).** Menschen fragen Google, ChatGPT oder Perplexity. Deren [Crawler](#g-crawler) lesen öffentliche Websites. Ob der Betreiber einer Website selbst ein [Sprachmodell](#g-llm) einsetzt, spielt dafür keine Rolle. In der Hand hat er Inhalt, Struktur und Aktualität seiner Seiten.
+2. **Auskunft auf der eigenen Website.** Ein Such- oder Antwortfeld auf der Website. Modell und Betrieb wählt der Betreiber selbst, die Datenbasis sind dieselben öffentlichen Inhalte wie bei Weg 1.
+3. **Interne Assistenz.** Beschäftigte durchsuchen Dienstanweisungen, Satzungen, Ratsunterlagen und Akten oder lassen Entwürfe vorbereiten. Hier kommen Zugriffsrechte, personenbezogene Daten und Protokollierung dazu.
 
-Für Weg 1 braucht eine Organisation kein eigenes Modell. Bei Weg 2 und 3 lässt sich das Modell austauschen, die aufbereiteten Daten bleiben.
+Für Weg 1 braucht eine Organisation gar kein eigenes Modell. Bei Weg 2 und 3 lässt sich das Modell austauschen, die aufbereiteten Daten bleiben dabei erhalten.
 
 ### Anwendungsfälle {#anwendungsfaelle}
 
@@ -38,53 +38,53 @@ Für Weg 1 braucht eine Organisation kein eigenes Modell. Bei Weg 2 und 3 lässt
 | Dokumente befüllen | Bescheid-Entwurf, Sitzungsvorlage, Antwort auf Bürgeranfrage | Vorlagen und Fallakte | Personenbezogene Daten, ungeprüfte Übernahme |
 | Zusammenfassen, übersetzen | Protokoll, Leichte Sprache, mehrsprachige Hinweise | Vorhandener Text | Sinnverschiebung |
 
-Auskunft ist im Kern eine Suche, das Modell formuliert nur das Ergebnis. Beim Befüllen von Dokumenten schreibt das Modell innerhalb eines Verwaltungsprozesses. Anbieter verkaufen beides oft als ein Produkt „KI-Assistent“, obwohl Daten, Rechte und Prüfschritte verschieden sind.
+Auskunft ist im Kern eine Suche, das Modell formuliert am Ende nur das Ergebnis. Beim Befüllen von Dokumenten schreibt es dagegen mitten in einem Verwaltungsprozess. Anbieter verkaufen beides oft als ein Produkt „KI-Assistent“, obwohl Daten, Rechte und Prüfschritte jeweils andere sind.
 
 ## Websites als Zugang zu Diensten {#serviceportal}
 
-Im September 2026 kamen 61 % des Webverkehrs in Deutschland von Mobilgeräten.^[StatCounter: [Desktop vs Mobile Market Share Germany](https://gs.statcounter.com/platform-market-share/desktop-mobile/germany), September 2026.] 2013 nutzten erst 41 % der Deutschen ein Smartphone zum Surfen.^[ARD/ZDF-Onlinestudie 2013, nach [schieb.de](https://www.schieb.de/723141/41-prozent-der-deutschen-surfen-mit-dem-smartphone).] Im selben Zeitraum haben sich die Websites von Banken, Händlern und Behörden von Informationsseiten zu Zugängen für Dienste entwickelt.
+Im September 2026 kamen 61 % des Webverkehrs in Deutschland von Mobilgeräten.^[StatCounter: [Desktop vs Mobile Market Share Germany](https://gs.statcounter.com/platform-market-share/desktop-mobile/germany), September 2026.] 2013 nutzten erst 41 % der Deutschen ein Smartphone zum Surfen.^[ARD/ZDF-Onlinestudie 2013, nach [schieb.de](https://www.schieb.de/723141/41-prozent-der-deutschen-surfen-mit-dem-smartphone).] Im selben Zeitraum sind aus den Websites von Banken, Händlern und Behörden Zugänge zu Diensten geworden, wo früher vor allem Informationen standen.
 
 In der Verwaltung regelt das Onlinezugangsgesetz diesen Wandel. Seine Änderung von 2024 hat die alte Umsetzungsfrist gestrichen und führt ab 2029 einen Rechtsanspruch auf digitalen Zugang zu Bundesleistungen ein.^[GvW: [OZG 2.0 in Kraft getreten](https://www.gvw.com/aktuelles/blog/detail/update-endlich-verfuegbar-ozg-20-in-kraft-getreten), 2024.] Anfang 2026 waren bundesweit 823 von 7.509 Einzelleistungen flächendeckend online, Bayern lag mit 19 % auf Platz drei der Länder.^[IW Köln: [Behörden-Digimeter 2026](https://www.iwkoeln.de/studien/klaus-heiner-roehl-jan-buechel-clemens-fabian-gruben-behoerden-digimeter-2026.html), 12.03.2026. Die Staatsregierung kommt mit anderer Zählweise auf über 1.600 Leistungen.]
 
 ::: {.beiuns}
-Den Erklärtext zur Hundesteuer muss die Stadt nicht selbst schreiben. Er kommt per Schnittstelle aus dem BayernPortal, ergänzt werden nur Steuersatz, Ansprechperson und Öffnungszeiten.
+Den Erklärtext zur Hundesteuer muss die Stadt gar nicht selbst schreiben. Er kommt per Schnittstelle aus dem BayernPortal, die Stadt ergänzt nur Steuersatz, Ansprechperson und Öffnungszeiten.
 :::
 
 In Bayern stellt der Freistaat vieles zentral bereit: das BayernPortal mit Leistungsbeschreibungen und Online-Anträgen, die BayernID mit rund einer Million aktiven Konten (2024)^[[Macwelt](https://www.macwelt.de/article/2288811/bayern-id-konflikt-zwischen-sicherheit-und-komfort.html), 12.04.2024.] und Schnittstellen, über die Kommunen die Leistungsbeschreibungen auf ihrer Website anzeigen können.^[StMI: [Nutzungsbedingungen für Webservice-Schnittstellen](https://www.baybw-services.bayern.de/documents/Nutzungsbedingungen_für_Webservice-Schnittstellen.pdf), 2017.]
 
-Öffentliche Websites müssen barrierefrei sein. In Bayern gilt dafür die BITV 2.0, dazu kommt eine jährlich geprüfte Erklärung zur Barrierefreiheit.^[[Bayerische Digitalverordnung](https://www.gesetze-bayern.de/Content/Pdf/BayDiV?all=True), §§ 9 bis 11.] In den Stichproben der Überwachungsstelle erfüllte 2023 und 2024 keine geprüfte Website die Vorgaben vollständig.^[Bayerischer Landtag: [Drs. 19/4712](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0004712.pdf), 03.03.2025.] Seit Juni 2025 gelten vergleichbare Pflichten nach dem Barrierefreiheitsstärkungsgesetz auch für viele private Anbieter.^[IHK Karlsruhe: [Barrierefreiheitsstärkungsgesetz](https://www.ihk.de/karlsruhe/fachthemen/recht/internetrecht/fallback1433495812828/bfsg-6348406).]
+Öffentliche Websites müssen barrierefrei sein. In Bayern gilt dafür die BITV 2.0, dazu kommt eine jährlich geprüfte Erklärung zur Barrierefreiheit.^[[Bayerische Digitalverordnung](https://www.gesetze-bayern.de/Content/Pdf/BayDiV?all=True), §§ 9 bis 11.] In den Stichproben der Überwachungsstelle hat 2023 und 2024 keine einzige geprüfte Website die Vorgaben vollständig erfüllt.^[Bayerischer Landtag: [Drs. 19/4712](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0004712.pdf), 03.03.2025.] Seit Juni 2025 gelten vergleichbare Pflichten nach dem Barrierefreiheitsstärkungsgesetz auch für viele private Anbieter.^[IHK Karlsruhe: [Barrierefreiheitsstärkungsgesetz](https://www.ihk.de/karlsruhe/fachthemen/recht/internetrecht/fallback1433495812828/bfsg-6348406).]
 
 ::: {.folgen}
-- [+]{.pro} Leistungsbeschreibungen, Online-Anträge und Login liefert das Land. Die Stadt bindet sie ein.
-- [+]{.pro} Gut gebaute Seiten erfüllen mobile Nutzung und Barrierefreiheit zugleich.
+- [+]{.pro} Leistungsbeschreibungen, Online-Anträge und Login liefert das Land, die Stadt muss sie nur einbinden.
+- [+]{.pro} Gut gebaute Seiten funktionieren auf dem Handy und sind zugleich barrierefrei.
 - [−]{.con} Die Website verweist auf viele Portale: BayernPortal, Ratsinformationssystem, Abfall-App, Stellenportal. Ohne klare Struktur verlieren Nutzer den Überblick.
 - [−]{.con} Barrierefreiheit ist Pflicht und wird geprüft. Baukastensysteme erfüllen sie nicht automatisch.
-- [→]{.rec} Lokale Inhalte selbst pflegen, Landesdienste per Schnittstelle einbinden, nichts doppelt.
+- [→]{.rec} Lokale Inhalte selbst pflegen, Landesdienste per Schnittstelle einbinden und nichts doppelt vorhalten.
 :::
 
 ## Statische Websites {#statisch}
 
-Unter den 10.000 meistbesuchten Websites nutzten 2024 über 12 % vorgerenderte oder hybride Ansätze, 67 % mehr als im Vorjahr.^[HTTP Archive: [Web Almanac 2024, Jamstack](https://almanac.httparchive.org/en/2024/jamstack).] Bei einer statischen Website werden die Seiten bei jeder Änderung einmal erzeugt und als fertige Dateien ausgeliefert. Beim Abruf laufen weder Programmcode noch Datenbank. Die Redaktion arbeitet in einem getrennten Redaktionssystem, das nicht öffentlich erreichbar sein muss ([Headless CMS](#g-headless)).
+Unter den 10.000 meistbesuchten Websites nutzten 2024 über 12 % vorgerenderte oder hybride Ansätze, 67 % mehr als im Vorjahr.^[HTTP Archive: [Web Almanac 2024, Jamstack](https://almanac.httparchive.org/en/2024/jamstack).] Bei einer statischen Website werden die Seiten bei jeder Änderung einmal erzeugt und als fertige Dateien ausgeliefert. Wer die Seite aufruft, bekommt also nur Dateien, ohne dass dabei Programmcode oder eine Datenbank läuft. Die Redaktion arbeitet in einem getrennten Redaktionssystem, das nicht öffentlich erreichbar sein muss ([Headless CMS](#g-headless)).
 
-In der Breite überwiegen klassische Systeme. Gut die Hälfte aller Websites nutzt ein CMS, WordPress allein rund 35 %, mit leicht sinkendem Anteil.^[HTTP Archive: [Web Almanac 2025, CMS](https://almanac.httparchive.org/de/2025/cms).]
+In der Breite überwiegen aber noch klassische Systeme. Gut die Hälfte aller Websites nutzt ein CMS, WordPress allein rund 35 %, mit leicht sinkendem Anteil.^[HTTP Archive: [Web Almanac 2025, CMS](https://almanac.httparchive.org/de/2025/cms).]
 
 Seiten aus statischen Generatoren wie Hugo hatten in den Messungen des HTTP Archive die besten Ladezeit-Kennzahlen und waren etwa halb so groß wie Seiten mit JavaScript-Frameworks.^[HTTP Archive: [Web Almanac 2021, Jamstack](https://almanac.httparchive.org/en/2021/jamstack).] Die Auslieferung über ein [Content-Delivery-Netz](#g-cdn) ist günstig und hält Lastspitzen aus. Serverseitige Sicherheitslücken wie die in PHP im Oktober 2026 (Kapitel [Betrieb und Sicherheit](#sicherheit)) betreffen statisch ausgelieferte Seiten nicht.
 
-Öffentliche Stellen setzen ebenfalls darauf. Die US-Bundesverwaltung betreibt mit cloud.gov Pages eine Plattform für statische Websites, die Dutzende Behörden nutzen. Der Betreiber nennt als Gründe weniger Schwachstellen, nutzungsabhängige Kosten und Reserven für Lastspitzen.^[cloud.gov: [Why use Pages](https://docs.cloud.gov/pages/using-pages/why-use-pages); [cloud.gov Pages](https://cloud.gov/pages/).] Die Website digital.gov erzeugt rund 10.000 Seiten mit Hugo in etwa einer halben Minute.^[GSA: [digital.gov Platform](https://github.com/GSA/digitalgov.gov/wiki/digital.gov-Platform).] GOV.UK hält eine statische Kopie bereit, auf die bei Störungen automatisch umgeschaltet wird.^[GOV.UK Developer Docs: [Fall back to the static mirror](https://docs.publishing.service.gov.uk/manual/fall-back-to-mirror.html), 12.02.2026.]
+Auch öffentliche Stellen setzen darauf. Die US-Bundesverwaltung betreibt mit cloud.gov Pages eine Plattform für statische Websites, die Dutzende Behörden nutzen. Der Betreiber nennt als Gründe weniger Schwachstellen, nutzungsabhängige Kosten und Reserven für Lastspitzen.^[cloud.gov: [Why use Pages](https://docs.cloud.gov/pages/using-pages/why-use-pages); [cloud.gov Pages](https://cloud.gov/pages/).] Die Website digital.gov erzeugt rund 10.000 Seiten mit Hugo in etwa einer halben Minute.^[GSA: [digital.gov Platform](https://github.com/GSA/digitalgov.gov/wiki/digital.gov-Platform).] GOV.UK hält eine statische Kopie bereit, auf die bei Störungen automatisch umgeschaltet wird.^[GOV.UK Developer Docs: [Fall back to the static mirror](https://docs.publishing.service.gov.uk/manual/fall-back-to-mirror.html), 12.02.2026.]
 
 ::: {.folgen}
-- [+]{.pro} Sicherheit, kurze Ladezeiten, geringe Hostingkosten, Stabilität unter Last.
-- [+]{.pro} Inhalte liegen als strukturierte Dateien vor, versioniert und maschinenlesbar, direkt nutzbar für Suche und KI-Auskunft.
+- [+]{.pro} Sicher, schnell, günstig im Hosting und stabil, auch wenn viele gleichzeitig zugreifen.
+- [+]{.pro} Die Inhalte liegen als strukturierte, versionierte Dateien vor und lassen sich direkt für Suche und KI-Auskunft nutzen.
 - [−]{.con} Formulare, Suche oder Login brauchen Zusatzdienste.
 - [−]{.con} Die Redaktion braucht eine bequeme Oberfläche, sonst fehlt die Akzeptanz im Haus.
-- [→]{.rec} Statisch ausliefern, getrennt redigieren, Anträge über das BayernPortal verlinken.
+- [→]{.rec} Statisch ausliefern, getrennt redigieren und Anträge über das BayernPortal verlinken.
 :::
 
 ## Suche und KI-Antworten {#suche}
 
 Die Hälfte der deutschen Internetnutzer verwendet zumindest gelegentlich KI-Chats statt klassischer Suche.^[Bitkom: [Internet-Suche im Wandel](https://www.bitkom.org/Presse/Presseinformation/Internet-Suche-Wandel-Haelfte-nutzt-KI-Chats), 20.11.2025.] Google zeigt seit März 2025 auch in Deutschland KI-Übersichten über den Suchergebnissen, seit Oktober 2025 zusätzlich einen KI-Modus.^[[t3n](https://t3n.de/news/?p=1679953), 26.03.2025; [onlinemarketing.de](https://onlinemarketing.de/technologie/google-search-ai-mode-startet-in-deutschland), 08.10.2025.]
 
-Websites erhalten dadurch noch weniger Besuche aus der Suche. Schon 2024, vor den KI-Übersichten, endeten in der EU 60 % der Google-Suchen ohne Klick. Auf 1.000 Suchen kamen 374 Klicks auf Websites außerhalb von Google.^[SparkToro/Datos: [2024 Zero-Click Search Study](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/), 01.07.2024.] Erscheint eine KI-Zusammenfassung, klicken Nutzer nur noch in 8 statt 15 % der Fälle auf ein Ergebnis.^[Pew Research Center: [Google users are less likely to click on links when an AI summary appears](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/), 22.07.2025, US-Daten.] Bei Verwaltungsfragen beginnt gut die Hälfte der Deutschen bei einer Suchmaschine, rund ein Drittel geht direkt auf die Seite der eigenen Stadt oder Gemeinde.^[Initiative D21: [eGovernment MONITOR 2025](https://initiatived21.de/uploads/03_Studien-Publikationen/eGovernment-MONITOR/2025/eGovMon2025_final.pdf). 51 % beginnen bei einer Suchmaschine, 42 % auf Behördenseiten, davon 78 % auf der Seite der eigenen Kommune.]
+Bei den Websites selbst kommen dadurch noch weniger Besucher an. Schon 2024, also bevor es die KI-Übersichten gab, endeten in der EU 60 % der Google-Suchen ohne einen einzigen Klick. Auf 1.000 Suchen kamen 374 Klicks auf Websites außerhalb von Google.^[SparkToro/Datos: [2024 Zero-Click Search Study](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/), 01.07.2024.] Erscheint eine KI-Zusammenfassung, klicken Nutzer nur noch in 8 statt 15 % der Fälle auf ein Ergebnis.^[Pew Research Center: [Google users are less likely to click on links when an AI summary appears](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/), 22.07.2025, US-Daten.] Bei Verwaltungsfragen beginnt gut die Hälfte der Deutschen bei einer Suchmaschine, rund ein Drittel geht direkt auf die Seite der eigenen Stadt oder Gemeinde.^[Initiative D21: [eGovernment MONITOR 2025](https://initiatived21.de/uploads/03_Studien-Publikationen/eGovernment-MONITOR/2025/eGovMon2025_final.pdf). 51 % beginnen bei einer Suchmaschine, 42 % auf Behördenseiten, davon 78 % auf der Seite der eigenen Kommune.]
 
 ::: {.beiuns}
 Jemand fragt Gemini, ob er in Moosburg eine Gartenhütte aufstellen darf. Steht auf der Stadtseite strukturiert, dass Gebäude bis 75 m³ außerhalb des Außenbereichs verfahrensfrei sind ([Art. 57 BayBO](https://www.gesetze-bayern.de/Content/Document/BayBO-57)), der Bebauungsplan aber gilt und Herr Graßl im Bauamt zuständig ist, nennt die Antwort genau das, mit Durchwahl. Steht es nur in einem alten PDF, rät die KI.
@@ -94,13 +94,13 @@ Jemand fragt Gemini, ob er in Moosburg eine Gartenhütte aufstellen darf. Steht 
 
 Gartner sagte 2024 voraus, dass das Volumen klassischer Suchmaschinen bis 2026 um 25 % sinkt.^[Gartner, nach [Slashdot](https://search.slashdot.org/story/24/03/04/170221/gartner-predicts-search-engine-volume-will-drop-25-by-2026-due-to-ai-chatbots-and-other-virtual-agents), 04.03.2024, und [Big Technology](https://www.bigtechnology.com/p/will-search-engine-traffic-really), 15.03.2024.] Google meldet dagegen ein Allzeithoch bei den Suchanfragen und über eine Milliarde monatliche Nutzer des KI-Modus.^[Google: [Q2 2026 earnings call](https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/), 22.07.2026.] Eigenständige KI-Werkzeuge machten Anfang 2026 in Europa weniger als 2 % der Suchvorgänge am Desktop aus.^[Datos, nach [PPC Land](https://ppc.land/ai-still-under-2-but-growing-datos-q1-2026-state-of-search-report/), 27.04.2026.] Die Zahl der Suchanfragen steigt also, die Zahl der Klicks auf Websites sinkt.
 
-Die Antwort formuliert ein Modell des Suchanbieters auf Grundlage der Inhalte, die es auf Websites findet. Google verlangt dafür nach eigener Aussage keine besonderen Dateien oder Auszeichnungen, die üblichen Regeln für gut auffindbare Seiten gelten weiter.^[Google Search Central: [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features), 10.12.2025.] Die vorgeschlagene Datei llms.txt für Sprachmodelle wertet Google Search nicht aus.^[Google Search Central: [Optimizing for Generative AI Features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), 10.07.2026.] Von 137.000 untersuchten Websites hatten 28 % eine solche Datei, 97 % davon wurden im Mai 2026 kein einziges Mal abgerufen.^[Ahrefs: [We Analyzed 137K Sites](https://ahrefs.com/blog/llmstxt-study/), 15.06.2026.]
+Die Antwort schreibt dabei ein Modell des Suchanbieters, und zwar aus den Inhalten, die es auf Websites findet. Google verlangt dafür nach eigener Aussage keine besonderen Dateien oder Auszeichnungen, die üblichen Regeln für gut auffindbare Seiten gelten weiter.^[Google Search Central: [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features), 10.12.2025.] Die vorgeschlagene Datei llms.txt für Sprachmodelle wertet Google Search nicht aus.^[Google Search Central: [Optimizing for Generative AI Features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), 10.07.2026.] Von 137.000 untersuchten Websites hatten 28 % eine solche Datei, 97 % davon wurden im Mai 2026 kein einziges Mal abgerufen.^[Ahrefs: [We Analyzed 137K Sites](https://ahrefs.com/blog/llmstxt-study/), 15.06.2026.]
 
 ::: {.folgen}
 - [+]{.pro} Die Stadt erreicht Menschen dort, wo sie fragen, ohne eigenes KI-Projekt.
 - [+]{.pro} Gute Inhalte wirken für klassische Suche und KI-Antworten gleichermaßen.
-- [−]{.con} Die Website wird seltener besucht. Aktuelle Hinweise werden seltener gesehen, Seitenaufrufe taugen kaum noch als Erfolgsmaß.
-- [−]{.con} Die Formulierung liegt beim Anbieter. Veraltete oder widersprüchliche Inhalte werden weitergegeben.
+- [−]{.con} Die Website wird seltener besucht, aktuelle Hinweise gehen eher unter. Seitenaufrufe taugen kaum noch als Erfolgsmaß.
+- [−]{.con} Wie die Antwort formuliert ist, entscheidet der Anbieter. Veraltete oder widersprüchliche Inhalte gibt er genauso weiter.
 - [→]{.rec} Korrekte, aktuelle, [strukturierte](#g-struktur) Inhalte sind die Voraussetzung für jede KI-Auskunft, fremde wie eigene. Die Seite muss weiterhin klassisch bedienbar bleiben, auch für ältere Menschen.
 :::
 
@@ -108,7 +108,7 @@ Die Antwort formuliert ein Modell des Suchanbieters auf Grundlage der Inhalte, d
 
 Gartner erwartet, dass Organisationen bis Ende 2026 60 % ihrer KI-Projekte aufgeben, für die keine KI-tauglichen Daten vorliegen. 63 % der Organisationen haben keine passenden Verfahren für ihre Daten oder wissen es nicht.^[Gartner: [Lack of AI-Ready Data Puts AI Projects at Risk](https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk), 26.02.2025.] Wie sich ungeordnete Daten auswirken, zeigt Microsoft 365 Copilot. Der Assistent übernimmt die bestehenden Zugriffsrechte und damit jede zu weit gefasste Freigabe. Zwei Drittel von 279 befragten Microsoft-365-Verantwortlichen haben die Einführung deshalb verschoben oder gestoppt, 73 % befürchten, dass vertrauliche Inhalte offengelegt werden.^[CoreView: [State of Microsoft 365 Security and Governance 2026](https://www.coreview.com/news/66-percent-of-enterprises-delay-microsoft-copilot), 21.07.2026.]
 
-Aufbereitete Daten bedeuten für eine Stadtverwaltung Zuständigkeiten als Datensätze statt als Fließtext, Leistungen mit Standardtext aus dem Landesportal und lokalen Angaben, Satzungen als Text statt als Scan und Termine mit Datum und Ort in eigenen Feldern. Zu jedem Eintrag gehören Stand, Quelle und Sichtbarkeit. Ein Musterdatensatz für die Gartenhütte:
+Für eine Stadtverwaltung heißt aufbereitet ganz praktisch, dass Zuständigkeiten als Datensätze vorliegen statt als Fließtext, Leistungen mit dem Standardtext aus dem Landesportal plus lokalen Angaben, Satzungen als Text statt als Scan und Termine mit Datum und Ort in eigenen Feldern. Zu jedem Eintrag gehören Stand, Quelle und Sichtbarkeit. Ein Musterdatensatz für die Gartenhütte:
 
 | Feld | Inhalt | Zweck |
 |------|--------|-------|
@@ -120,14 +120,14 @@ Aufbereitete Daten bedeuten für eine Stadtverwaltung Zuständigkeiten als Daten
 | Stand | 01.10.2026, geprüft von der Sachgebietsleitung | Veraltetes wird erkennbar |
 | Sichtbarkeit | öffentlich | Steuert, wer die Information abfragen kann |
 
-Ändert sich die Zuständigkeit, wird sie an einer Stelle geändert. Website, KI-Antwort und interne Assistenz übernehmen die Änderung gleichzeitig.
+Ändert sich eine Zuständigkeit, wird sie nur an einer Stelle geändert. Website, KI-Antwort und interne Assistenz ziehen dann gleichzeitig nach.
 
 ::: {.folgen}
-- [+]{.pro} Datenarbeit hängt nicht vom Modell ab. Sie wirkt sofort bei Suchmaschinen und später in jeder KI-Lösung.
+- [+]{.pro} Datenarbeit hängt an keinem bestimmten Modell. Sie wirkt sofort bei Suchmaschinen und später in jeder KI-Lösung.
 - [+]{.pro} Sie braucht Fachwissen aus der Verwaltung, keine KI-Spezialisten, und lässt sich mit eigenem Personal, Studierenden oder Ehrenamtlichen erledigen.
 - [−]{.con} Sie bindet Zeit in den Fachämtern und ist nach außen wenig sichtbar.
-- [−]{.con} Sie macht Widersprüche und veraltete Inhalte sichtbar.
-- [→]{.rec} Inventur, Struktur, Zuständigkeitsdaten und die Umwandlung von PDFs in Text früh einplanen. Jede KI-Funktion baut darauf auf.
+- [−]{.con} Sie bringt Widersprüche und veraltete Inhalte ans Licht.
+- [→]{.rec} Inventur, Struktur und Zuständigkeiten lieber früh angehen und PDFs in Text umwandeln. Darauf baut später jede KI-Funktion auf.
 :::
 
 ## Wachstum von Open Source {#oss}
@@ -162,7 +162,7 @@ Seit 2025 stellen Länder, Großstädte und Ministerien in mehreren europäische
 
 63 % der befragten Verwaltungen nutzen Open Source, 37 % haben eine Strategie dafür.^[Bitkom: [Open Source Monitor 2025, Studienbericht](https://www.bitkom.org/sites/main/files/2025-09/Bitkom-Studienbericht-Open-Source-Monitor-2025.pdf), September 2025.] München hatte LiMux 2017 per Ratsbeschluss zurückgenommen.^[[cybernews](https://cybernews.com/de/tech/muenchen-ersetzt-microsoft-durch-open-source/), 13.05.2026.]
 
-Neben Büroanwendungen laufen auch Fachanwendungen und Bürgerdienste auf offener Software.
+Das betrifft längst nicht nur Büroanwendungen. Auch Fachanwendungen und Bürgerdienste laufen auf offener Software.
 
 | Software | Zweck | Im Einsatz |
 |----------|------------------|------------------|
@@ -175,7 +175,7 @@ Neben Büroanwendungen laufen auch Fachanwendungen und Bürgerdienste auf offene
 - [+]{.pro} Referenzen gibt es auf Bundes-, Landes- und Stadtebene, auch in Bayern.
 - [+]{.pro} Die Einsparungen sind belegt, die Lizenzpreise großer Anbieter steigen.
 - [−]{.con} Die Migration bestehender Arbeitsplätze kostet Geld und Schulung und braucht politischen Rückhalt, sonst wird sie wie LiMux zurückgenommen.
-- [→]{.rec} Der günstigste Einstieg ist eine Neuvergabe, etwa die der Website.
+- [→]{.rec} Am günstigsten steigt man bei einer Neuvergabe ein, etwa bei der Website.
 :::
 
 ## Nachnutzung und Public Code {#nachnutzung}
@@ -183,16 +183,16 @@ Neben Büroanwendungen laufen auch Fachanwendungen und Bürgerdienste auf offene
 Software, die mit öffentlichem Geld entsteht, soll öffentlich nachnutzbar sein ([Public Money, Public Code](#g-pmpc)). Die Verwaltungsplattform openCode zählt über 5.500 Projekte und 10.800 Nutzer, der Bund vergab 2025 knapp ein Viertel seiner Softwareentwicklungsaufträge als Open Source.^[Deutscher Bundestag: [Drs. 21/5502](https://dserver.bundestag.de/btd/21/055/2105502.pdf), 22.04.2026.] Der IT-Planungsrat hat im März 2026 mit dem Deutschland-Stack über 50 offene Standards festgelegt,^[[heise](https://heise.de/-11225804), März 2026.] die EU-Kommission im Juni 2026 eine Open-Source-Strategie beschlossen.^[EU-Kommission: [Strategy for EU Open Digital Ecosystems](https://commission.europa.eu/news-and-media/news/commission-boosts-open-and-interoperable-digital-ecosystems-public-administrations-2026-06-03_en), 03.06.2026.]
 
 ::: {.beiuns}
-Einen KI-Assistenten muss niemand neu entwickeln. MUCGPT und BärGPT liegen offen vor und laufen in mehreren Städten. Was Moosburg daraus anpasst, kann jede andere Gemeinde im Landkreis Freising übernehmen.
+Einen KI-Assistenten muss niemand neu erfinden. MUCGPT und BärGPT liegen offen vor und laufen schon in mehreren Städten. Was Moosburg daraus anpasst, kann dann jede andere Gemeinde im Landkreis Freising übernehmen.
 :::
 
-Wo Code offen liegt, wird er übernommen. Münchens KI-Assistent MUCGPT ist auf GitHub veröffentlicht und läuft in Stuttgart als „ChatSTR“.^[Landeshauptstadt München: [MUCGPT 2.0](https://stadt.muenchen.de/news/mucgpt-neue-version.html), 30.06.2026.] F13 aus Baden-Württemberg steht seit Juli 2025 als Open Source bereit.^[Staatsministerium Baden-Württemberg: [KI-Assistenz F13 wird zur Open-Source-Software](https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/ki-assistenz-f13-wird-zur-open-source-software), 23.07.2025.] Beim Programm „Einer für Alle“ bleibt die Nachnutzung laut IT-Planungsrat hinter den Erwartungen, wegen technischer, rechtlicher und finanzieller Hürden.^[IT-Planungsrat: [Abschlussbericht EfA-Finanzierung](https://www.it-planungsrat.de/fileadmin/beschluesse/2025/Beschluss_2025_51_Gemeinsame_EfA-Finanzierung_Abschlussbericht.pdf), 10.10.2025.]
+Wo Code offen liegt, wird er auch übernommen. Münchens KI-Assistent MUCGPT ist auf GitHub veröffentlicht und läuft in Stuttgart als „ChatSTR“.^[Landeshauptstadt München: [MUCGPT 2.0](https://stadt.muenchen.de/news/mucgpt-neue-version.html), 30.06.2026.] F13 aus Baden-Württemberg steht seit Juli 2025 als Open Source bereit.^[Staatsministerium Baden-Württemberg: [KI-Assistenz F13 wird zur Open-Source-Software](https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/ki-assistenz-f13-wird-zur-open-source-software), 23.07.2025.] Ganz von selbst geht das aber nicht. Beim Programm „Einer für Alle“ bleibt die Nachnutzung laut IT-Planungsrat hinter den Erwartungen zurück, wegen technischer, rechtlicher und finanzieller Hürden.^[IT-Planungsrat: [Abschlussbericht EfA-Finanzierung](https://www.it-planungsrat.de/fileadmin/beschluesse/2025/Beschluss_2025_51_Gemeinsame_EfA-Finanzierung_Abschlussbericht.pdf), 10.10.2025.]
 
 ::: {.folgen}
-- [+]{.pro} Kosten teilen: Was eine Großstadt entwickelt, kann eine Kleinstadt anpassen.
+- [+]{.pro} Kosten lassen sich teilen. Was eine Großstadt entwickelt, kann eine Kleinstadt anpassen.
 - [+]{.pro} Der Code bleibt bei der Stadt, auch wenn der Dienstleister wechselt.
 - [−]{.con} Nachnutzung braucht Dokumentation und eine verantwortliche Stelle.
-- [→]{.rec} In jeden Entwicklungsauftrag: Quellcode unter offener Lizenz, Veröffentlichung auf openCode, Daten in offenen Formaten.
+- [→]{.rec} In jeden Entwicklungsauftrag gehören Quellcode unter offener Lizenz, die Veröffentlichung auf openCode und Daten in offenen Formaten.
 :::
 
 ## Digitale Souveränität {#souveraenitaet}
@@ -208,8 +208,8 @@ Microsoft erhöht die Preise für Microsoft 365 ab Juli 2026, ausdrücklich auch
 ::: {.folgen}
 - [+]{.pro} Wer Code und Daten besitzt, kann den Dienstleister wechseln. Das begrenzt Preiserhöhungen.
 - [+]{.pro} Politische Risiken und einseitige Preisänderungen treffen eine Stadt mit Alternativen weniger.
-- [−]{.con} Souveränität erfordert eigene Kompetenz oder einen Partner, der Betrieb ohne Lock-in anbietet.
-- [→]{.rec} Vor jeder Vergabe klären: Wem gehören Code, Inhalte und Zugänge? Kann die Stadt kurzfristig samt Daten wechseln? Wo werden Anfragen verarbeitet?
+- [−]{.con} Souveränität gibt es nicht umsonst. Sie braucht eigene Kompetenz oder einen Partner, der den Betrieb ohne Lock-in anbietet.
+- [→]{.rec} Vor jeder Vergabe klären, wem Code, Inhalte und Zugänge gehören, ob die Stadt kurzfristig samt Daten wechseln kann und wo Anfragen verarbeitet werden.
 :::
 
 ## KI in der Softwareentwicklung {#ki-entwicklung}
@@ -226,7 +226,7 @@ Auch Menschen ohne Programmierausbildung bauen inzwischen Software. Die Plattfor
 - [+]{.pro} IT-affine Beschäftigte, Ehrenamtliche und Studierende bauen Werkzeuge, für die früher eine Agentur nötig war.
 - [+]{.pro} Prototypen entstehen in Tagen. Wer zuerst testet und dann vergibt, schreibt genauere und günstigere Ausschreibungen.
 - [−]{.con} Ungeprüfter KI-Code ist ein Qualitäts- und Sicherheitsrisiko. Produktivsysteme brauchen Review, Tests und eine verantwortliche Person.
-- [→]{.rec} Eine kleine eigene Entwicklungskapazität, eine Stelle oder ein Kooperationspartner, bringt mehr als ein großer Einmalauftrag.
+- [→]{.rec} Eine kleine eigene Entwicklungskapazität bringt oft mehr als ein großer Einmalauftrag, ob als Stelle oder über einen Kooperationspartner.
 :::
 
 ## Offene Fortbildung {#fortbildung}
@@ -243,7 +243,7 @@ Hochschulen und öffentlich geförderte Plattformen bieten kostenlose Kurse zu D
 | Bayerische Verwaltungsschule | Freistaat Bayern | Ausbildung zu Digitallotsen, Kosten zu 80 % vom Freistaat getragen, darauf aufbauend „Digitalwirt“.^[[Haufe](https://www.haufe.de/oeffentlicher-dienst/digitalisierung-transformation/weiterbildung-zum-digitalwirt-in-bayern_524786_630268.html), August 2024.] |
 
 ::: {.beiuns}
-Eine KI-Schulung muss die Stadt nicht einkaufen. Ein offener Kurs und eine interne Stunde zu eigenen Regeln und Beispielen decken die Schulungspflicht ab und kosten vor allem Arbeitszeit.
+Eine KI-Schulung muss die Stadt nicht extra einkaufen. Ein offener Kurs und eine interne Stunde mit eigenen Regeln und Beispielen decken die Schulungspflicht ab und kosten vor allem Arbeitszeit.
 :::
 
 Wer KI einsetzt, muss nach der KI-Verordnung die KI-Kompetenz der Beschäftigten fördern. Dokumentierte Schulungen genügen (Kapitel [Regulierung](#regulierung)).^[KI-Campus: [AI Omnibus recalibrates Article 4](https://ki-campus.org/en/blog/eu-ai-act-ai-omnibus-recalibrates-article-4-ai-literacy-remains-mandatory), 28.07.2026.] BayernKI dürfen Beschäftigte erst nach einer Schulung nutzen.^[[Regensburger Nachrichten](https://www.regensburger-nachrichten.de/panorama/97357-landratsamt-regensburg-startet-pilotprojekt-zu-kuenstlicher-intelligenz), 04.06.2025.]
@@ -279,7 +279,7 @@ Kleine Kommunen beginnen meist mit Regeln. Hagenow in Mecklenburg-Vorpommern hat
 - [+]{.pro} Referenzarchitekturen liegen offen vor und sind im Großbetrieb erprobt.
 - [+]{.pro} Eine Kleinstadt hat Hunderte Dokumente, nicht Hunderttausende. Das ist technisch überschaubar.
 - [+]{.pro} Offene, verbreitete Bausteine können Agenturen und Freelancer übernehmen, ohne Zustimmung des ursprünglichen Anbieters. Eine Übergabe ist einfacher als früher, weil sich Abhängigkeiten automatisch aktualisieren und KI-Werkzeuge fremden Code erklären.
-- [−]{.con} Großstädte haben Teams für den Betrieb, eine Kleinstadt nicht. Betrieb und Verantwortung müssen vorher geklärt sein.
+- [−]{.con} Großstädte haben eigene Teams für den Betrieb, eine Kleinstadt in der Regel nicht. Wer betreibt und wer verantwortet, sollte deshalb vorher geklärt sein.
 - [→]{.rec} Bausteine nachnutzen und lokal anpassen, gern gemeinsam mit Nachbarkommunen oder dem Landkreis.
 :::
 
@@ -295,14 +295,14 @@ Eine statisch ausgelieferte Stadtseite wäre an diesem Tag online geblieben, gle
 
 2026 gab es außerdem kritische Lücken in TYPO3, Drupal und verbreiteten WordPress-Plugins sowie aufgekaufte Plugins mit eingebauter Hintertür.^[[TYPO3 Security Advisory](https://news.typo3.com/security/advisory/typo3-core-sa-2026-017), 09.06.2026; [The DropTimes](https://www.thedroptimes.com/69877/drupal-sa-core-2026-004-postgresql-sql-injection), 20.05.2026; [t3n](https://t3n.de/news/wordpress-plugins-backdoor-infiziert-1738354/), 19.04.2026.] Der Angriff auf die Südwestfalen-IT legte 2023 72 Verbandskommunen lahm, die vollständige Wiederherstellung dauerte elf Monate. Der Patch für die ausgenutzte Lücke war seit Wochen verfügbar, aber nicht eingespielt.^[[ZfK](https://www.zfk.de/digitalisierung/cyberangriff-auf-suedwestfalen-it-monatelanger-krisenmodus-und-millionenkosten), 30.10.2024; [Borns IT-Blog](https://borncity.com/blog/2024/01/26/ransomware-bei-kommunal-it-dienstleister-sdwestfalen-it-nachlese-it-forensik-bericht-teil-1/), 26.01.2024.] In Bayern bearbeitete das Landesamt für Sicherheit in der Informationstechnik seit 2019 rund 1.600 Vorfälle im kommunalen Bereich.^[Bayerischer Landtag: [Drs. 19/6511](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0006511.pdf), 29.04.2025.]
 
-Den Betrieb erleichtern automatische Updates von Abhängigkeiten, Container und Schutzregeln beim Hoster, die auch kleinen Teams zur Verfügung stehen. Bei PHP2Shell waren Schutzregeln von Cloudflare rund neun Stunden vor der Veröffentlichung der Lücken aktiv, auch für Kunden im kostenlosen Tarif. AWS und Vercel zogen am selben Tag nach.^[Cloudflare: [Cloudflare deploys protections against php2shell vulnerability](https://blog.cloudflare.com/php-vulnerabilities-waf-protection/), 21.10.2026, nach [PPC Land](https://ppc.land/cloudflare-blocks-php2shell-exploits-9-hours-before-php-flaws-went-public/); [AWS Security Bulletin 2026-143](https://aws.amazon.com/security/security-bulletins/2026-143-aws/), 21.10.2026; [Vercel](https://vercel.com/kb/bulletin/php2shell-security-bulletin), 21.10.2026.] Solche Regeln ersetzen das Update nicht, verschaffen aber Zeit. Statisch ausgelieferte Seiten waren nicht betroffen.
+Leichter wird der Betrieb durch automatische Updates von Abhängigkeiten, Container und Schutzregeln beim Hoster. Das alles steht heute auch kleinen Teams zur Verfügung. Bei PHP2Shell waren Schutzregeln von Cloudflare rund neun Stunden vor der Veröffentlichung der Lücken aktiv, auch für Kunden im kostenlosen Tarif. AWS und Vercel zogen am selben Tag nach.^[Cloudflare: [Cloudflare deploys protections against php2shell vulnerability](https://blog.cloudflare.com/php-vulnerabilities-waf-protection/), 21.10.2026, nach [PPC Land](https://ppc.land/cloudflare-blocks-php2shell-exploits-9-hours-before-php-flaws-went-public/); [AWS Security Bulletin 2026-143](https://aws.amazon.com/security/security-bulletins/2026-143-aws/), 21.10.2026; [Vercel](https://vercel.com/kb/bulletin/php2shell-security-bulletin), 21.10.2026.] Solche Regeln ersetzen das Update nicht, verschaffen aber Luft. Statisch ausgelieferte Seiten waren nicht betroffen.
 
 ::: {.folgen}
 - [+]{.pro} Automatische Updates und Schutzregeln beim Hoster vereinfachen den Betrieb, auch ohne eigene Sicherheitsabteilung.
 - [+]{.pro} Statische Auslieferung entfernt die größte Angriffsfläche.
 - [−]{.con} Auch ein Wartungsvertrag schützt nicht vor Abschaltungen im Notfall.
-- [−]{.con} KI verkürzt die Zeit zwischen Patch und Angriff auf Stunden. Wöchentliches Patchen reicht nicht.
-- [→]{.rec} In Verträge: Patch-Fristen in Stunden, Informationspflicht gegenüber der Stadt, offengelegter Versionsstand. In der Architektur: möglichst wenig öffentlich erreichbarer Servercode.
+- [−]{.con} KI verkürzt die Zeit zwischen Patch und Angriff auf Stunden. Wöchentlich zu patchen reicht nicht mehr.
+- [→]{.rec} In Verträge gehören Patch-Fristen in Stunden, eine Informationspflicht gegenüber der Stadt und ein offengelegter Versionsstand. In der Architektur hilft möglichst wenig öffentlich erreichbarer Servercode.
 :::
 
 ## Offene Sprachmodelle {#modelle}
@@ -311,7 +311,7 @@ Den Betrieb erleichtern automatische Updates von Abhängigkeiten, Container und 
 
 OpenAI hat 2025 mit gpt-oss offene Modelle veröffentlicht, die kleinere Variante läuft mit 16 GB Grafikspeicher.^[[The Register](https://www.theregister.com/2025/08/05/openai_open_gpt/), 05.08.2025.] Mistral aus Frankreich bietet seine Modellfamilie von 3 Milliarden Parametern bis zum Großmodell unter der freien Apache-Lizenz an.^[Mistral AI: [Mistral 3](https://mistral.ai/news/mistral-3), 02.12.2025.] Dazu kommen staatlich geförderte europäische Modelle wie Apertus aus der Schweiz und Teuken aus Deutschland sowie chinesische Modelle. Ende 2025 entfiel rund ein Drittel der Nutzung auf der Plattform OpenRouter auf offene Modelle.^[Aubakirova u. a.: [State of AI. An Empirical 100 Trillion Token Study with OpenRouter](https://arxiv.org/html/2601.10088v1), Januar 2026.]
 
-Der Abstand zur Spitze ist 2026 leicht gewachsen, und Meta hat sich mit seinem neuesten Spitzenmodell von offenen Gewichten abgewandt.^[[The Decoder](https://the-decoder.com/meta-is-reportedly-ditching-open-llama-models-for-avocado-a-closed-model-built-for-direct-sales/), 10.12.2025.] Für Auskunft und Zusammenfassung genügen offene Modelle.
+Der Abstand zur Spitze ist 2026 leicht gewachsen, und Meta hat sich mit seinem neuesten Spitzenmodell von offenen Gewichten abgewandt.^[[The Decoder](https://the-decoder.com/meta-is-reportedly-ditching-open-llama-models-for-avocado-a-closed-model-built-for-direct-sales/), 10.12.2025.] Für Auskunft und Zusammenfassung genügen offene Modelle trotzdem.
 
 ::: {.folgen}
 - [+]{.pro} Anfragen und Dokumente bleiben im Haus oder bei einem Hoster der Wahl. Preis- und Lizenzänderungen eines Anbieters treffen die Stadt nicht.
@@ -344,7 +344,7 @@ Eine Bürgerin fragt auf der Website nach der Gartenhütte. Gesucht wird nur in 
 
 ::: {.folgen}
 - [+]{.pro} Website-Auskunft und interne Assistenz können Index und Modell teilen.
-- [+]{.pro} Aktualisieren heißt Dokument ändern. Jede Antwort nennt ihre Quelle.
+- [+]{.pro} Wer ein Dokument ändert, aktualisiert damit auch die Antworten. Jede Antwort nennt ihre Quelle.
 - [+]{.pro} Das Modell ist austauschbar, der Wert steckt in Index und Metadaten.
 - [−]{.con} Rechte müssen an den Dokumenten hängen. Falsch freigegebene Dateien findet eine KI schneller als jeder Mensch.
 - [→]{.rec} Bei Angeboten prüfen, ob das Wissen über einen Index mit Rechten angebunden wird. Training auf eigenen Daten ist für Auskunft selten nötig.
@@ -357,14 +357,14 @@ Der Preis für eine gleichbleibende KI-Leistung fällt seit 2023 um etwa das Dre
 FIGURE:preise
 
 ::: {.beiuns}
-Ein Antwortfeld mit angenommen 5.000 Anfragen im Monat verbraucht grob 20 Mio. Eingabe- und 2,5 Mio. Ausgabe-[Token](#g-token). Mit kleinen Modellen kostet das zu Listenpreisen etwa 3 bis 30 Dollar im Monat (eigene Überschlagsrechnung). Teuer sind Integration, Daten und Betrieb.
+Ein Antwortfeld mit angenommen 5.000 Anfragen im Monat verbraucht grob 20 Mio. Eingabe- und 2,5 Mio. Ausgabe-[Token](#g-token). Mit kleinen Modellen kostet das zu Listenpreisen etwa 3 bis 30 Dollar im Monat (eigene Überschlagsrechnung). Teuer sind eher Integration, Daten und Betrieb.
 :::
 
 Zwischen Rohkosten und Endpreis liegt eine große Spanne. Manche KI-Anbieter arbeiten mit negativen Margen, weil sie teure Spitzenmodelle einkaufen.^[Wing VC: [Who Makes Money When Inference Gets 10x Cheaper?](https://www.wing.vc/content/who-makes-money-when-inference-gets-10x-cheaper), August 2026.] Bei Lizenzen pro Arbeitsplatz zahlt der Kunde den Preis vom Vertragsschluss, auch wenn die Rohkosten ein Jahr später ein Zehntel betragen. Microsoft 365 Copilot kostet 30 Dollar pro Person und Monat, für Organisationen mit bis zu 300 Beschäftigten seit Dezember 2025 21 Dollar.^[Microsoft: [Microsoft 365 Copilot Business](https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/02/microsoft-365-copilot-business-the-future-of-work-for-small-businesses/), 02.12.2025.]
 
 ::: {.folgen}
 - [+]{.pro} In zwölf Monaten gibt es dieselbe Qualität für einen Bruchteil des Preises oder bessere Qualität zum selben Preis.
-- [+]{.pro} Bei kommunalen Mengen sind Modellkosten gering. Das Geld gehört in Daten und Integration.
+- [+]{.pro} Bei kommunalen Mengen fallen die Modellkosten kaum ins Gewicht. Das Geld ist in Daten und Integration besser angelegt.
 - [−]{.con} Mehrjährige Festpreise geben sinkende Kosten nicht weiter.
 - [−]{.con} Die günstigsten Angebote kommen teils von Anbietern, die datenschutzrechtlich ausscheiden.
 - [→]{.rec} Verträge so gestalten, dass sinkende Preise ankommen, etwa über nutzungsabhängige Abrechnung. Eigener Betrieb ist eine Alternative.
@@ -431,7 +431,7 @@ Die schwedischen Kommunen haben die Zusammenarbeit mit dem ursprünglichen Anbie
 
 ## Ausblick {#ausblick}
 
-Liegen Inhalte strukturiert vor, kann ein Sprachmodell daraus mehr erzeugen als Antworten. Technisch ist das heute möglich, in Kommunen aber kaum erprobt. Es gehört deshalb schon in die Planung der Architektur.
+Liegen Inhalte strukturiert vor, kann ein Sprachmodell daraus noch einiges mehr erzeugen als Antworten. Technisch geht das heute schon, in Kommunen ist es aber kaum erprobt. Bei der Planung der Architektur lohnt es sich trotzdem, das schon mitzudenken.
 
 - **Antwortseiten statt Chatfenster.** Ein Antwortfeld erzeugt eine Seite im Stadtdesign mit Antwort, Quellen, zuständiger Person und Formularlink. Häufige Fragen werden zwischengespeichert, Anfragen protokolliert.
 - **Seiten per Beschreibung.** Die Redaktion beschreibt, was sie braucht, etwa eine Seite zum Stadtfest mit Programm aus dem Kalender und Hinweis zur Straßensperrung. Das System erstellt einen Entwurf im Designsystem, ein Mensch gibt frei. Auch klassische CMS rüsten nach, TYPO3 etwa mit einer Erweiterung für KI-Suche und Zusammenfassungen.^[TYPO3: [This Month in TYPO3, May 2026](https://news.typo3.com/article/this-month-in-typo3-may-2026).]
